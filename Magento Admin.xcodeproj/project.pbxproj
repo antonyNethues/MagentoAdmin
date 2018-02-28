@@ -1,0 +1,1520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B7C36545B2219EE64CB3544 /* Pods_Magento_AdminUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C60D72BBB74CE4FF84F947A6 /* Pods_Magento_AdminUITests.framework */; };
+		8302D3761FA9960E0037D533 /* SimpleBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 8302D3751FA9960E0037D533 /* SimpleBarChart.m */; };
+		8304EE201F2A0CB5000FC467 /* CustomerIntViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8304EE1F1F2A0CB5000FC467 /* CustomerIntViewController.swift */; };
+		8304EE221F2A0CD3000FC467 /* CustomIntTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8304EE211F2A0CD3000FC467 /* CustomIntTableViewCell.swift */; };
+		831201961FC5B2BB00AAA6E5 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 831201951FC5B2BB00AAA6E5 /* ImageIO.framework */; };
+		8314B83C1F4EB1A1002C216D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8314B83B1F4EB1A1002C216D /* MBProgressHUD.m */; };
+		83177D361FD174CD006E411F /* ModuleDescViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83177D351FD174CD006E411F /* ModuleDescViewController.swift */; };
+		8317FE151F57EA9300672BE6 /* ConnectionCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8317FE141F57EA9300672BE6 /* ConnectionCheck.swift */; };
+		831B21941F3C2EB4006E33CE /* AMScanQRCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831B21931F3C2EB4006E33CE /* AMScanQRCodeVC.swift */; };
+		831B21961F3C2FB5006E33CE /* ScanQRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831B21951F3C2FB5006E33CE /* ScanQRCodeViewController.swift */; };
+		831B21981F3C5002006E33CE /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831B21971F3C5002006E33CE /* ProductTableViewCell.swift */; };
+		831B219B1F3C5F41006E33CE /* SlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831B219A1F3C5F41006E33CE /* SlideMenuController.swift */; };
+		831B21A11F3C6400006E33CE /* RightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831B21A01F3C6400006E33CE /* RightViewController.swift */; };
+		831B21A31F3C658D006E33CE /* RightMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831B21A21F3C658D006E33CE /* RightMenuTableViewCell.swift */; };
+		831B21A51F3C77BE006E33CE /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831B21A41F3C77BE006E33CE /* SearchViewController.swift */; };
+		831B21A91F3C8F34006E33CE /* MagentoTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831B21A81F3C8F34006E33CE /* MagentoTabBarController.swift */; };
+		831F1E011F90C6A400E44406 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831F1E001F90C6A400E44406 /* CustomTabBar.swift */; };
+		831FF7C9202C77EF00935776 /* StackedBarsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831FF7C8202C77EF00935776 /* StackedBarsExample.swift */; };
+		831FF7CF202C7CB600935776 /* ExamplesDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831FF7CE202C7CB500935776 /* ExamplesDefaults.swift */; };
+		831FF7D1202C7CEA00935776 /* Env.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831FF7D0202C7CEA00935776 /* Env.swift */; };
+		83225CD51F4D6CCD000DDAD5 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83225CD41F4D6CCD000DDAD5 /* APIManager.swift */; };
+		83225CD71F4D9F8A000DDAD5 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83225CD61F4D9F8A000DDAD5 /* SwiftyJSON.swift */; };
+		8323BFAC1F7CDD5B00D55378 /* MagentoDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8323BFAB1F7CDD5B00D55378 /* MagentoDatabase.swift */; };
+		832534181FE7FEDF00A97E33 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 832534161FE7FEDF00A97E33 /* Localizable.strings */; };
+		8326A70B1FBB204400438A63 /* Magento_AdminUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8326A70A1FBB204400438A63 /* Magento_AdminUITests.swift */; };
+		832710991FE11BB80027C7B2 /* PNBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8327108D1FE11BB80027C7B2 /* PNBar.swift */; };
+		8327109A1FE11BB80027C7B2 /* PNBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8327108E1FE11BB80027C7B2 /* PNBarChart.swift */; };
+		8327109B1FE11BB80027C7B2 /* PNChartLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8327108F1FE11BB80027C7B2 /* PNChartLabel.swift */; };
+		8327109C1FE11BB80027C7B2 /* PNChartSwift.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 832710901FE11BB80027C7B2 /* PNChartSwift.podspec */; };
+		8327109D1FE11BB80027C7B2 /* PNColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832710911FE11BB80027C7B2 /* PNColor.swift */; };
+		8327109E1FE11BB80027C7B2 /* PNGenericChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832710921FE11BB80027C7B2 /* PNGenericChart.swift */; };
+		8327109F1FE11BB80027C7B2 /* PNLineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832710931FE11BB80027C7B2 /* PNLineChart.swift */; };
+		832710A01FE11BB80027C7B2 /* PNLineChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832710941FE11BB80027C7B2 /* PNLineChartData.swift */; };
+		832710A11FE11BB80027C7B2 /* PNLineChartDataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832710951FE11BB80027C7B2 /* PNLineChartDataItem.swift */; };
+		832710A21FE11BB80027C7B2 /* PNPieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832710961FE11BB80027C7B2 /* PNPieChart.swift */; };
+		832710A31FE11BB80027C7B2 /* PNPieChartDataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832710971FE11BB80027C7B2 /* PNPieChartDataItem.swift */; };
+		832710A41FE11BB80027C7B2 /* PNValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832710981FE11BB80027C7B2 /* PNValue.swift */; };
+		832710A61FE15E710027C7B2 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 832710A51FE15E710027C7B2 /* UserNotifications.framework */; };
+		8327C8901F6F9C1400D158A7 /* ProductReviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8327C88F1F6F9C1400D158A7 /* ProductReviewTableViewCell.swift */; };
+		8327C8951F6FB15D00D158A7 /* HCSStarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8327C8931F6FB15D00D158A7 /* HCSStarRatingView.m */; };
+		8327C8961F6FB15D00D158A7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8327C8941F6FB15D00D158A7 /* Info.plist */; };
+		8327C8981F6FCB5300D158A7 /* BestSellarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8327C8971F6FCB5300D158A7 /* BestSellarViewController.swift */; };
+		8327C89A1F6FD9B300D158A7 /* BestSellarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8327C8991F6FD9B300D158A7 /* BestSellarTableViewCell.swift */; };
+		832EE6931F84F6DE0047C53F /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832EE6921F84F6DE0047C53F /* CustomLabel.swift */; };
+		832EE69A1F850BBA0047C53F /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832EE6991F850BBA0047C53F /* ProductListViewController.swift */; };
+		832EE69C1F850CB30047C53F /* ProductListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832EE69B1F850CB30047C53F /* ProductListTableViewCell.swift */; };
+		833DF1291F5ED9BB005C6A2F /* CustomerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EBABF91F2B102600C4DB4A /* CustomerDetailViewController.swift */; };
+		8344FCBD1F8B4C3E0001EB05 /* SearchProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8344FCBC1F8B4C3E0001EB05 /* SearchProductViewController.swift */; };
+		8349CE221F739A1C00DCBC0B /* FMDatabase+FTS3.m in Sources */ = {isa = PBXBuildFile; fileRef = 8349CE0E1F739A1C00DCBC0B /* FMDatabase+FTS3.m */; };
+		8349CE231F739A1C00DCBC0B /* FMTokenizers.m in Sources */ = {isa = PBXBuildFile; fileRef = 8349CE101F739A1C00DCBC0B /* FMTokenizers.m */; };
+		8349CE241F739A1C00DCBC0B /* FMDatabase+InMemoryOnDiskIO.m in Sources */ = {isa = PBXBuildFile; fileRef = 8349CE141F739A1C00DCBC0B /* FMDatabase+InMemoryOnDiskIO.m */; };
+		8349CE251F739A1C00DCBC0B /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8349CE171F739A1C00DCBC0B /* FMDatabase.m */; };
+		8349CE261F739A1C00DCBC0B /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8349CE191F739A1C00DCBC0B /* FMDatabaseAdditions.m */; };
+		8349CE271F739A1C00DCBC0B /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8349CE1B1F739A1C00DCBC0B /* FMDatabasePool.m */; };
+		8349CE281F739A1C00DCBC0B /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8349CE1D1F739A1C00DCBC0B /* FMDatabaseQueue.m */; };
+		8349CE291F739A1C00DCBC0B /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8349CE201F739A1C00DCBC0B /* FMResultSet.m */; };
+		8349CE2A1F739A1C00DCBC0B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8349CE211F739A1C00DCBC0B /* Info.plist */; };
+		8349CE2D1F739BF900DCBC0B /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8349CE2C1F739BF900DCBC0B /* libsqlite3.tbd */; };
+		8354F53F1F3B3F9600077415 /* UUBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8354F5341F3B3F9600077415 /* UUBar.m */; };
+		8354F5401F3B3F9600077415 /* UUBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 8354F5361F3B3F9600077415 /* UUBarChart.m */; };
+		8354F5411F3B3F9600077415 /* UUChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 8354F5381F3B3F9600077415 /* UUChart.m */; };
+		8354F5421F3B3F9600077415 /* UUChartConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 8354F53A1F3B3F9600077415 /* UUChartConst.m */; };
+		8354F5431F3B3F9600077415 /* UUChartLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8354F53C1F3B3F9600077415 /* UUChartLabel.m */; };
+		8354F5441F3B3F9600077415 /* UULineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 8354F53E1F3B3F9600077415 /* UULineChart.m */; };
+		8356E04A20316F9F00FEE94E /* AAChartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8356E04020316CB500FEE94E /* AAChartModel.swift */; };
+		8356E04B20316F9F00FEE94E /* AAChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8356E04120316CB500FEE94E /* AAChartView.swift */; };
+		8356E04C20316F9F00FEE94E /* AASerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8356E04220316CB500FEE94E /* AASerializable.swift */; };
+		8356E04D20316FA500FEE94E /* AAChartView.html in Resources */ = {isa = PBXBuildFile; fileRef = 8356E04420316CB500FEE94E /* AAChartView.html */; };
+		8356E04E20316FA500FEE94E /* AAFunnel.js in Resources */ = {isa = PBXBuildFile; fileRef = 8356E04520316CB500FEE94E /* AAFunnel.js */; };
+		8356E04F20316FA500FEE94E /* AAHighcharts-3d.js in Resources */ = {isa = PBXBuildFile; fileRef = 8356E04620316CB500FEE94E /* AAHighcharts-3d.js */; };
+		8356E05020316FA500FEE94E /* AAHighchartsLib.js in Resources */ = {isa = PBXBuildFile; fileRef = 8356E04720316CB500FEE94E /* AAHighchartsLib.js */; };
+		8356E05120316FA500FEE94E /* AAHighchartsMore.js in Resources */ = {isa = PBXBuildFile; fileRef = 8356E04820316CB500FEE94E /* AAHighchartsMore.js */; };
+		8356E05220316FA500FEE94E /* AAOptionsConstructor.js in Resources */ = {isa = PBXBuildFile; fileRef = 8356E04920316CB500FEE94E /* AAOptionsConstructor.js */; };
+		83688ADC2021DDE700C5F97D /* YYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 83688ACE2021DD8C00C5F97D /* YYCache.m */; };
+		83688ADD2021DDE700C5F97D /* YYDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 83688AD02021DD8C00C5F97D /* YYDiskCache.m */; };
+		83688ADE2021DDE700C5F97D /* YYKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 83688AD22021DD8C00C5F97D /* YYKVStorage.m */; };
+		83688ADF2021DDE700C5F97D /* YYMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 83688AD42021DD8C00C5F97D /* YYMemoryCache.m */; };
+		837835501F835F6100AE1339 /* ObjRef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8378354F1F835F6100AE1339 /* ObjRef.swift */; };
+		837FA8561FFB69DD0039EF16 /* CustomPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837FA8551FFB69DD0039EF16 /* CustomPicker.swift */; };
+		839189CA2040507C0053E855 /* CustomerCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839189C92040507C0053E855 /* CustomerCollectionCell.swift */; };
+		8397BEE41FE7D6BA00E252EF /* MultistoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397BEE31FE7D6BA00E252EF /* MultistoreViewController.swift */; };
+		83AE11DA1FDFACBB00EF712E /* EditProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AE11D91FDFACBB00EF712E /* EditProductViewController.swift */; };
+		83AE11DC1FDFE9DD00EF712E /* EditProd1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AE11DB1FDFE9DD00EF712E /* EditProd1TableViewCell.swift */; };
+		83BA62541F29AF120011DB7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BA62531F29AF120011DB7C /* AppDelegate.swift */; };
+		83BA62561F29AF120011DB7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BA62551F29AF120011DB7C /* ViewController.swift */; };
+		83BA62591F29AF120011DB7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83BA62571F29AF120011DB7C /* Main.storyboard */; };
+		83BA625B1F29AF120011DB7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83BA625A1F29AF120011DB7C /* Assets.xcassets */; };
+		83BA625E1F29AF120011DB7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83BA625C1F29AF120011DB7C /* LaunchScreen.storyboard */; };
+		83C3A89D1F50491900B4020E /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C3A89C1F50491900B4020E /* ChangePasswordViewController.swift */; };
+		83C5BD151F568ABF0062174F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C5BD141F568ABF0062174F /* HomeViewController.swift */; };
+		83D0989B1FDA9D1800B476F4 /* EditCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D0989A1FDA9D1800B476F4 /* EditCategoryViewController.swift */; };
+		83D0989D1FDA9D5000B476F4 /* EditCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D0989C1FDA9D5000B476F4 /* EditCustomerViewController.swift */; };
+		83DC4C6A1F29EDAB00B3B1EA /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DC4C691F29EDAB00B3B1EA /* DashboardViewController.swift */; };
+		83DC4C6C1F29EEBE00B3B1EA /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DC4C6B1F29EEBE00B3B1EA /* CustomTableViewCell.swift */; };
+		83DF8BA41FEA802500A01941 /* CouponViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DF8BA31FEA802500A01941 /* CouponViewController.swift */; };
+		83DF8BA61FEA828300A01941 /* CouponTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DF8BA51FEA828300A01941 /* CouponTableViewCell.swift */; };
+		83E54F031F2A223600A85ADC /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E54F021F2A223600A85ADC /* OrderViewController.swift */; };
+		83E54F051F2A225200A85ADC /* OrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E54F041F2A225200A85ADC /* OrderTableViewCell.swift */; };
+		83E59E251FC3041800E84226 /* FLAnimatedImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E59DEF1FC3041800E84226 /* FLAnimatedImageView+WebCache.m */; };
+		83E59E261FC3041800E84226 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E59DF11FC3041800E84226 /* MKAnnotationView+WebCache.m */; };
+		83E59E271FC3041800E84226 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E59DF31FC3041800E84226 /* NSData+ImageContentType.m */; };
+		83E59E281FC3041800E84226 /* NSImage+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E59DF51FC3041800E84226 /* NSImage+WebCache.m */; };
+		83E59E291FC3041800E84226 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E59DF71FC3041800E84226 /* SDImageCache.m */; };
+		83E59E2A1FC3041800E84226 /* SDImageCacheConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E59DF91FC3041800E84226 /* SDImageCacheConfig.m */; };
+		83E59E2B1FC3041800E84226 /* SDWebImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E59DFB1FC3041800E84226 /* SDWebImageCoder.m */; };
+		83E59E2C1FC3041800E84226 /* SDWebImageCoderHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E59DFD1FC3041800E84226 /* SDWebImageCoderHelper.m */; };
+		83E59E2D1FC3041800E84226 /* SDWebImageCodersManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E59DFF1FC3041800E84226 /* SDWebImageCodersManager.m */; };
+		83E59E2E1FC3041800E84226 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E59E011FC3041800E84226 /* SDWebImageCompat.m */; };
+		83E59E2F1FC3041800E84226 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E59E031FC3041800E84226 /* SDWebImageDownloader.m */; };
+		83E59E301FC3041800E84226 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E59E051FC3041800E84226 /* SDWebImageDownloaderOperation.m */; };
+		83E59E311FC3041800E84226 /* SDWebImageFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E59E071FC3041800E84226 /* SDWebImageFrame.m */; };
+		83E59E321FC3041800E84226 /* SDWebImageGIFCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E59E091FC3041800E84226 /* SDWebImageGIFCoder.m */; };
+		83E59E331FC3041800E84226 /* SDWebImageImageIOCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E59E0B1FC3041800E84226 /* SDWebImageImageIOCoder.m */; };
+		83E59E341FC3041800E84226 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E59E0D1FC3041800E84226 /* SDWebImageManager.m */; };
+		83E59E351FC3041800E84226 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E59E101FC3041800E84226 /* SDWebImagePrefetcher.m */; };
+		83E59E361FC3041800E84226 /* SDWebImageWebPCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E59E121FC3041800E84226 /* SDWebImageWebPCoder.m */; };
+		83E59E371FC3041800E84226 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E59E141FC3041800E84226 /* UIButton+WebCache.m */; };
+		83E59E381FC3041800E84226 /* UIImage+ForceDecode.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E59E161FC3041800E84226 /* UIImage+ForceDecode.m */; };
+		83E59E391FC3041800E84226 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E59E181FC3041800E84226 /* UIImage+GIF.m */; };
+		83E59E3A1FC3041800E84226 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E59E1A1FC3041800E84226 /* UIImage+MultiFormat.m */; };
+		83E59E3B1FC3041800E84226 /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E59E1C1FC3041800E84226 /* UIImage+WebP.m */; };
+		83E59E3C1FC3041800E84226 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E59E1E1FC3041800E84226 /* UIImageView+HighlightedWebCache.m */; };
+		83E59E3D1FC3041800E84226 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E59E201FC3041800E84226 /* UIImageView+WebCache.m */; };
+		83E59E3E1FC3041800E84226 /* UIView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E59E221FC3041800E84226 /* UIView+WebCache.m */; };
+		83E59E3F1FC3041800E84226 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E59E241FC3041800E84226 /* UIView+WebCacheOperation.m */; };
+		83E59E441FC306A100E84226 /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E59E411FC306A100E84226 /* FLAnimatedImage.m */; };
+		83E59E451FC306A100E84226 /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E59E431FC306A100E84226 /* FLAnimatedImageView.m */; };
+		83E59E471FC3127E00E84226 /* ImageCacheLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E59E461FC3127E00E84226 /* ImageCacheLoader.swift */; };
+		83E722C61F74E62B00739112 /* UserObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E722C51F74E62B00739112 /* UserObj.swift */; };
+		83E8959C1F3DB62000C1571D /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E8959B1F3DB62000C1571D /* ProductDetailViewController.swift */; };
+		83EB13C42007555500E04E79 /* CurrencyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EB13C32007555500E04E79 /* CurrencyLabel.swift */; };
+		83EBABFC1F2B105900C4DB4A /* CustomerDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EBABFB1F2B105900C4DB4A /* CustomerDetailTableViewCell.swift */; };
+		83EBABFE1F2B458600C4DB4A /* OrderDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EBABFD1F2B458600C4DB4A /* OrderDetailViewController.swift */; };
+		83EBAC001F2B45A400C4DB4A /* OrderDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EBABFF1F2B45A400C4DB4A /* OrderDetailTableViewCell.swift */; };
+		83EBAC021F2B75E300C4DB4A /* SearchTermTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EBAC011F2B75E300C4DB4A /* SearchTermTableViewCell.swift */; };
+		83EBAC041F2B75FA00C4DB4A /* SearchTermViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EBAC031F2B75FA00C4DB4A /* SearchTermViewController.swift */; };
+		83EBAC061F2B7C1700C4DB4A /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EBAC051F2B7C1700C4DB4A /* ProductViewController.swift */; };
+		83F1836C1F29F6DC001AFDA0 /* CustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F1836B1F29F6DC001AFDA0 /* CustomerViewController.swift */; };
+		83F1836E1F29F700001AFDA0 /* CustomerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F1836D1F29F700001AFDA0 /* CustomerTableViewCell.swift */; };
+		83F8E5461F6A8796001DA528 /* SearchUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F8E5451F6A8796001DA528 /* SearchUserViewController.swift */; };
+		83F8E5481F6AB317001DA528 /* OrderHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F8E5471F6AB317001DA528 /* OrderHomeViewController.swift */; };
+		83FB2E082011F2BF00E7141C /* prodImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FB2E072011F2BF00E7141C /* prodImageCollectionViewCell.swift */; };
+		B7C203E927E7B7BCEF297930 /* Pods_Magento_Admin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AFBF3050EA1A018FCACD4B0 /* Pods_Magento_Admin.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8326A70D1FBB204400438A63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83BA62481F29AF110011DB7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83BA624F1F29AF110011DB7C;
+			remoteInfo = "Magento Admin";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8370ECE8202081140070D437 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1AFBF3050EA1A018FCACD4B0 /* Pods_Magento_Admin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Magento_Admin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7614ADE4E0A92C6409C55DC4 /* Pods-Magento Admin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Magento Admin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Magento Admin/Pods-Magento Admin.release.xcconfig"; sourceTree = "<group>"; };
+		8302D3741FA9960E0037D533 /* SimpleBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleBarChart.h; sourceTree = "<group>"; };
+		8302D3751FA9960E0037D533 /* SimpleBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleBarChart.m; sourceTree = "<group>"; };
+		8304EE1F1F2A0CB5000FC467 /* CustomerIntViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomerIntViewController.swift; path = "Tab bar VC/CustomerIntViewController.swift"; sourceTree = "<group>"; };
+		8304EE211F2A0CD3000FC467 /* CustomIntTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomIntTableViewCell.swift; path = "Tab bar VC/CustomIntTableViewCell.swift"; sourceTree = "<group>"; };
+		831201951FC5B2BB00AAA6E5 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		8314B83A1F4EB1A1002C216D /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		8314B83B1F4EB1A1002C216D /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		83177D351FD174CD006E411F /* ModuleDescViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleDescViewController.swift; sourceTree = "<group>"; };
+		8317FE141F57EA9300672BE6 /* ConnectionCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConnectionCheck.swift; path = "API manager/ConnectionCheck.swift"; sourceTree = "<group>"; };
+		831B21931F3C2EB4006E33CE /* AMScanQRCodeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMScanQRCodeVC.swift; sourceTree = "<group>"; };
+		831B21951F3C2FB5006E33CE /* ScanQRCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanQRCodeViewController.swift; sourceTree = "<group>"; };
+		831B21971F3C5002006E33CE /* ProductTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductTableViewCell.swift; path = "Tab bar VC/ProductTableViewCell.swift"; sourceTree = "<group>"; };
+		831B219A1F3C5F41006E33CE /* SlideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuController.swift; sourceTree = "<group>"; };
+		831B21A01F3C6400006E33CE /* RightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightViewController.swift; sourceTree = "<group>"; };
+		831B21A21F3C658D006E33CE /* RightMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightMenuTableViewCell.swift; sourceTree = "<group>"; };
+		831B21A41F3C77BE006E33CE /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchViewController.swift; path = "Tab bar VC/SearchViewController.swift"; sourceTree = "<group>"; };
+		831B21A81F3C8F34006E33CE /* MagentoTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagentoTabBarController.swift; sourceTree = "<group>"; };
+		831F1E001F90C6A400E44406 /* CustomTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		831FF7C8202C77EF00935776 /* StackedBarsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackedBarsExample.swift; sourceTree = "<group>"; };
+		831FF7CE202C7CB500935776 /* ExamplesDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamplesDefaults.swift; sourceTree = "<group>"; };
+		831FF7D0202C7CEA00935776 /* Env.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Env.swift; sourceTree = "<group>"; };
+		832092B91FE927A300FC9716 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		832092BA1FE927A300FC9716 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		832092BC1FE92BBE00FC9716 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		83225CD41F4D6CCD000DDAD5 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIManager.swift; path = "API manager/APIManager.swift"; sourceTree = "<group>"; };
+		83225CD61F4D9F8A000DDAD5 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		8323BFAB1F7CDD5B00D55378 /* MagentoDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MagentoDatabase.swift; path = "FMDB Local/MagentoDatabase.swift"; sourceTree = "<group>"; };
+		832534171FE7FEDF00A97E33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8326A7081FBB204400438A63 /* Magento AdminUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Magento AdminUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8326A70A1FBB204400438A63 /* Magento_AdminUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magento_AdminUITests.swift; sourceTree = "<group>"; };
+		8326A70C1FBB204400438A63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8327108D1FE11BB80027C7B2 /* PNBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PNBar.swift; sourceTree = "<group>"; };
+		8327108E1FE11BB80027C7B2 /* PNBarChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PNBarChart.swift; sourceTree = "<group>"; };
+		8327108F1FE11BB80027C7B2 /* PNChartLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PNChartLabel.swift; sourceTree = "<group>"; };
+		832710901FE11BB80027C7B2 /* PNChartSwift.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PNChartSwift.podspec; sourceTree = "<group>"; };
+		832710911FE11BB80027C7B2 /* PNColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PNColor.swift; sourceTree = "<group>"; };
+		832710921FE11BB80027C7B2 /* PNGenericChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PNGenericChart.swift; sourceTree = "<group>"; };
+		832710931FE11BB80027C7B2 /* PNLineChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PNLineChart.swift; sourceTree = "<group>"; };
+		832710941FE11BB80027C7B2 /* PNLineChartData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PNLineChartData.swift; sourceTree = "<group>"; };
+		832710951FE11BB80027C7B2 /* PNLineChartDataItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PNLineChartDataItem.swift; sourceTree = "<group>"; };
+		832710961FE11BB80027C7B2 /* PNPieChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PNPieChart.swift; sourceTree = "<group>"; };
+		832710971FE11BB80027C7B2 /* PNPieChartDataItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PNPieChartDataItem.swift; sourceTree = "<group>"; };
+		832710981FE11BB80027C7B2 /* PNValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PNValue.swift; sourceTree = "<group>"; };
+		832710A51FE15E710027C7B2 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		8327C88F1F6F9C1400D158A7 /* ProductReviewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductReviewTableViewCell.swift; path = "Tab bar VC/ProductReviewTableViewCell.swift"; sourceTree = "<group>"; };
+		8327C8921F6FB15D00D158A7 /* HCSStarRatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSStarRatingView.h; sourceTree = "<group>"; };
+		8327C8931F6FB15D00D158A7 /* HCSStarRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSStarRatingView.m; sourceTree = "<group>"; };
+		8327C8941F6FB15D00D158A7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8327C8971F6FCB5300D158A7 /* BestSellarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BestSellarViewController.swift; path = "Tab bar VC/BestSellarViewController.swift"; sourceTree = "<group>"; };
+		8327C8991F6FD9B300D158A7 /* BestSellarTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BestSellarTableViewCell.swift; path = "Tab bar VC/BestSellarTableViewCell.swift"; sourceTree = "<group>"; };
+		832EE6921F84F6DE0047C53F /* CustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		832EE6991F850BBA0047C53F /* ProductListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductListViewController.swift; path = "Tab bar VC/ProductListViewController.swift"; sourceTree = "<group>"; };
+		832EE69B1F850CB30047C53F /* ProductListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductListTableViewCell.swift; path = "Tab bar VC/ProductListTableViewCell.swift"; sourceTree = "<group>"; };
+		8344FCBC1F8B4C3E0001EB05 /* SearchProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchProductViewController.swift; path = "Tab bar VC/SearchProductViewController.swift"; sourceTree = "<group>"; };
+		8349CE0D1F739A1C00DCBC0B /* FMDatabase+FTS3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FMDatabase+FTS3.h"; sourceTree = "<group>"; };
+		8349CE0E1F739A1C00DCBC0B /* FMDatabase+FTS3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FMDatabase+FTS3.m"; sourceTree = "<group>"; };
+		8349CE0F1F739A1C00DCBC0B /* FMTokenizers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMTokenizers.h; sourceTree = "<group>"; };
+		8349CE101F739A1C00DCBC0B /* FMTokenizers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMTokenizers.m; sourceTree = "<group>"; };
+		8349CE111F739A1C00DCBC0B /* fts3_tokenizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fts3_tokenizer.h; sourceTree = "<group>"; };
+		8349CE131F739A1C00DCBC0B /* FMDatabase+InMemoryOnDiskIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FMDatabase+InMemoryOnDiskIO.h"; sourceTree = "<group>"; };
+		8349CE141F739A1C00DCBC0B /* FMDatabase+InMemoryOnDiskIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FMDatabase+InMemoryOnDiskIO.m"; sourceTree = "<group>"; };
+		8349CE161F739A1C00DCBC0B /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		8349CE171F739A1C00DCBC0B /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		8349CE181F739A1C00DCBC0B /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		8349CE191F739A1C00DCBC0B /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		8349CE1A1F739A1C00DCBC0B /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		8349CE1B1F739A1C00DCBC0B /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		8349CE1C1F739A1C00DCBC0B /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		8349CE1D1F739A1C00DCBC0B /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		8349CE1E1F739A1C00DCBC0B /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		8349CE1F1F739A1C00DCBC0B /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		8349CE201F739A1C00DCBC0B /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		8349CE211F739A1C00DCBC0B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8349CE2C1F739BF900DCBC0B /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		8354F5331F3B3F9600077415 /* UUBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUBar.h; sourceTree = "<group>"; };
+		8354F5341F3B3F9600077415 /* UUBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUBar.m; sourceTree = "<group>"; };
+		8354F5351F3B3F9600077415 /* UUBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUBarChart.h; sourceTree = "<group>"; };
+		8354F5361F3B3F9600077415 /* UUBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUBarChart.m; sourceTree = "<group>"; };
+		8354F5371F3B3F9600077415 /* UUChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUChart.h; sourceTree = "<group>"; };
+		8354F5381F3B3F9600077415 /* UUChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUChart.m; sourceTree = "<group>"; };
+		8354F5391F3B3F9600077415 /* UUChartConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUChartConst.h; sourceTree = "<group>"; };
+		8354F53A1F3B3F9600077415 /* UUChartConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUChartConst.m; sourceTree = "<group>"; };
+		8354F53B1F3B3F9600077415 /* UUChartLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUChartLabel.h; sourceTree = "<group>"; };
+		8354F53C1F3B3F9600077415 /* UUChartLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUChartLabel.m; sourceTree = "<group>"; };
+		8354F53D1F3B3F9600077415 /* UULineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UULineChart.h; sourceTree = "<group>"; };
+		8354F53E1F3B3F9600077415 /* UULineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UULineChart.m; sourceTree = "<group>"; };
+		8356E04020316CB500FEE94E /* AAChartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AAChartModel.swift; sourceTree = "<group>"; };
+		8356E04120316CB500FEE94E /* AAChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AAChartView.swift; sourceTree = "<group>"; };
+		8356E04220316CB500FEE94E /* AASerializable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AASerializable.swift; sourceTree = "<group>"; };
+		8356E04420316CB500FEE94E /* AAChartView.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = AAChartView.html; sourceTree = "<group>"; };
+		8356E04520316CB500FEE94E /* AAFunnel.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = AAFunnel.js; sourceTree = "<group>"; };
+		8356E04620316CB500FEE94E /* AAHighcharts-3d.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "AAHighcharts-3d.js"; sourceTree = "<group>"; };
+		8356E04720316CB500FEE94E /* AAHighchartsLib.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = AAHighchartsLib.js; sourceTree = "<group>"; };
+		8356E04820316CB500FEE94E /* AAHighchartsMore.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = AAHighchartsMore.js; sourceTree = "<group>"; };
+		8356E04920316CB500FEE94E /* AAOptionsConstructor.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = AAOptionsConstructor.js; sourceTree = "<group>"; };
+		83688ACD2021DD8C00C5F97D /* YYCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYCache.h; sourceTree = "<group>"; };
+		83688ACE2021DD8C00C5F97D /* YYCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYCache.m; sourceTree = "<group>"; };
+		83688ACF2021DD8C00C5F97D /* YYDiskCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYDiskCache.h; sourceTree = "<group>"; };
+		83688AD02021DD8C00C5F97D /* YYDiskCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYDiskCache.m; sourceTree = "<group>"; };
+		83688AD12021DD8C00C5F97D /* YYKVStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYKVStorage.h; sourceTree = "<group>"; };
+		83688AD22021DD8C00C5F97D /* YYKVStorage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYKVStorage.m; sourceTree = "<group>"; };
+		83688AD32021DD8C00C5F97D /* YYMemoryCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYMemoryCache.h; sourceTree = "<group>"; };
+		83688AD42021DD8C00C5F97D /* YYMemoryCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYMemoryCache.m; sourceTree = "<group>"; };
+		8378354F1F835F6100AE1339 /* ObjRef.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjRef.swift; sourceTree = "<group>"; };
+		837FA8551FFB69DD0039EF16 /* CustomPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPicker.swift; sourceTree = "<group>"; };
+		839189C92040507C0053E855 /* CustomerCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerCollectionCell.swift; sourceTree = "<group>"; };
+		8397BEE31FE7D6BA00E252EF /* MultistoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultistoreViewController.swift; sourceTree = "<group>"; };
+		83AE11D91FDFACBB00EF712E /* EditProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditProductViewController.swift; path = "Tab bar VC/EditProductViewController.swift"; sourceTree = "<group>"; };
+		83AE11DB1FDFE9DD00EF712E /* EditProd1TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProd1TableViewCell.swift; sourceTree = "<group>"; };
+		83B3FFF51F3AED5E006579D3 /* Magento Admin-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Magento Admin-Bridging-Header.h"; sourceTree = "<group>"; };
+		83BA62501F29AF120011DB7C /* Magento Admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magento Admin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83BA62531F29AF120011DB7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83BA62551F29AF120011DB7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		83BA62581F29AF120011DB7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83BA625A1F29AF120011DB7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83BA625D1F29AF120011DB7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83BA625F1F29AF120011DB7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83C3A89C1F50491900B4020E /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		83C5BD141F568ABF0062174F /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		83D0989A1FDA9D1800B476F4 /* EditCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditCategoryViewController.swift; sourceTree = "<group>"; };
+		83D0989C1FDA9D5000B476F4 /* EditCustomerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditCustomerViewController.swift; sourceTree = "<group>"; };
+		83DC4C691F29EDAB00B3B1EA /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DashboardViewController.swift; path = "Tab bar VC/DashboardViewController.swift"; sourceTree = "<group>"; };
+		83DC4C6B1F29EEBE00B3B1EA /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTableViewCell.swift; path = "Tab bar VC/CustomTableViewCell.swift"; sourceTree = "<group>"; };
+		83DF8BA31FEA802500A01941 /* CouponViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CouponViewController.swift; sourceTree = "<group>"; };
+		83DF8BA51FEA828300A01941 /* CouponTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CouponTableViewCell.swift; sourceTree = "<group>"; };
+		83E54F021F2A223600A85ADC /* OrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OrderViewController.swift; path = "Tab bar VC/OrderViewController.swift"; sourceTree = "<group>"; };
+		83E54F041F2A225200A85ADC /* OrderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OrderTableViewCell.swift; path = "Tab bar VC/OrderTableViewCell.swift"; sourceTree = "<group>"; };
+		83E59DEE1FC3041800E84226 /* FLAnimatedImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FLAnimatedImageView+WebCache.h"; sourceTree = "<group>"; };
+		83E59DEF1FC3041800E84226 /* FLAnimatedImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FLAnimatedImageView+WebCache.m"; sourceTree = "<group>"; };
+		83E59DF01FC3041800E84226 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
+		83E59DF11FC3041800E84226 /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
+		83E59DF21FC3041800E84226 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		83E59DF31FC3041800E84226 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		83E59DF41FC3041800E84226 /* NSImage+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+WebCache.h"; sourceTree = "<group>"; };
+		83E59DF51FC3041800E84226 /* NSImage+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+WebCache.m"; sourceTree = "<group>"; };
+		83E59DF61FC3041800E84226 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		83E59DF71FC3041800E84226 /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		83E59DF81FC3041800E84226 /* SDImageCacheConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCacheConfig.h; sourceTree = "<group>"; };
+		83E59DF91FC3041800E84226 /* SDImageCacheConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCacheConfig.m; sourceTree = "<group>"; };
+		83E59DFA1FC3041800E84226 /* SDWebImageCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCoder.h; sourceTree = "<group>"; };
+		83E59DFB1FC3041800E84226 /* SDWebImageCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCoder.m; sourceTree = "<group>"; };
+		83E59DFC1FC3041800E84226 /* SDWebImageCoderHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCoderHelper.h; sourceTree = "<group>"; };
+		83E59DFD1FC3041800E84226 /* SDWebImageCoderHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCoderHelper.m; sourceTree = "<group>"; };
+		83E59DFE1FC3041800E84226 /* SDWebImageCodersManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCodersManager.h; sourceTree = "<group>"; };
+		83E59DFF1FC3041800E84226 /* SDWebImageCodersManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCodersManager.m; sourceTree = "<group>"; };
+		83E59E001FC3041800E84226 /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		83E59E011FC3041800E84226 /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		83E59E021FC3041800E84226 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		83E59E031FC3041800E84226 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		83E59E041FC3041800E84226 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		83E59E051FC3041800E84226 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		83E59E061FC3041800E84226 /* SDWebImageFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageFrame.h; sourceTree = "<group>"; };
+		83E59E071FC3041800E84226 /* SDWebImageFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageFrame.m; sourceTree = "<group>"; };
+		83E59E081FC3041800E84226 /* SDWebImageGIFCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageGIFCoder.h; sourceTree = "<group>"; };
+		83E59E091FC3041800E84226 /* SDWebImageGIFCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageGIFCoder.m; sourceTree = "<group>"; };
+		83E59E0A1FC3041800E84226 /* SDWebImageImageIOCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageImageIOCoder.h; sourceTree = "<group>"; };
+		83E59E0B1FC3041800E84226 /* SDWebImageImageIOCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageImageIOCoder.m; sourceTree = "<group>"; };
+		83E59E0C1FC3041800E84226 /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		83E59E0D1FC3041800E84226 /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		83E59E0E1FC3041800E84226 /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		83E59E0F1FC3041800E84226 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		83E59E101FC3041800E84226 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		83E59E111FC3041800E84226 /* SDWebImageWebPCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageWebPCoder.h; sourceTree = "<group>"; };
+		83E59E121FC3041800E84226 /* SDWebImageWebPCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageWebPCoder.m; sourceTree = "<group>"; };
+		83E59E131FC3041800E84226 /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		83E59E141FC3041800E84226 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		83E59E151FC3041800E84226 /* UIImage+ForceDecode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ForceDecode.h"; sourceTree = "<group>"; };
+		83E59E161FC3041800E84226 /* UIImage+ForceDecode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ForceDecode.m"; sourceTree = "<group>"; };
+		83E59E171FC3041800E84226 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		83E59E181FC3041800E84226 /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		83E59E191FC3041800E84226 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		83E59E1A1FC3041800E84226 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		83E59E1B1FC3041800E84226 /* UIImage+WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WebP.h"; sourceTree = "<group>"; };
+		83E59E1C1FC3041800E84226 /* UIImage+WebP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WebP.m"; sourceTree = "<group>"; };
+		83E59E1D1FC3041800E84226 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		83E59E1E1FC3041800E84226 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		83E59E1F1FC3041800E84226 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		83E59E201FC3041800E84226 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		83E59E211FC3041800E84226 /* UIView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCache.h"; sourceTree = "<group>"; };
+		83E59E221FC3041800E84226 /* UIView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCache.m"; sourceTree = "<group>"; };
+		83E59E231FC3041800E84226 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		83E59E241FC3041800E84226 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		83E59E401FC306A100E84226 /* FLAnimatedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImage.h; sourceTree = "<group>"; };
+		83E59E411FC306A100E84226 /* FLAnimatedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImage.m; sourceTree = "<group>"; };
+		83E59E421FC306A100E84226 /* FLAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImageView.h; sourceTree = "<group>"; };
+		83E59E431FC306A100E84226 /* FLAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImageView.m; sourceTree = "<group>"; };
+		83E59E461FC3127E00E84226 /* ImageCacheLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCacheLoader.swift; sourceTree = "<group>"; };
+		83E722C51F74E62B00739112 /* UserObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserObj.swift; path = "Tab bar VC/DB Structure Classes/UserObj.swift"; sourceTree = "<group>"; };
+		83E8959B1F3DB62000C1571D /* ProductDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductDetailViewController.swift; path = "Tab bar VC/ProductDetailViewController.swift"; sourceTree = "<group>"; };
+		83EB13C32007555500E04E79 /* CurrencyLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyLabel.swift; sourceTree = "<group>"; };
+		83EBABF91F2B102600C4DB4A /* CustomerDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomerDetailViewController.swift; path = "Tab bar VC/CustomerDetailViewController.swift"; sourceTree = "<group>"; };
+		83EBABFB1F2B105900C4DB4A /* CustomerDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomerDetailTableViewCell.swift; path = "Tab bar VC/CustomerDetailTableViewCell.swift"; sourceTree = "<group>"; };
+		83EBABFD1F2B458600C4DB4A /* OrderDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OrderDetailViewController.swift; path = "Tab bar VC/OrderDetailViewController.swift"; sourceTree = "<group>"; };
+		83EBABFF1F2B45A400C4DB4A /* OrderDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OrderDetailTableViewCell.swift; path = "Tab bar VC/OrderDetailTableViewCell.swift"; sourceTree = "<group>"; };
+		83EBAC011F2B75E300C4DB4A /* SearchTermTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchTermTableViewCell.swift; path = "Tab bar VC/SearchTermTableViewCell.swift"; sourceTree = "<group>"; };
+		83EBAC031F2B75FA00C4DB4A /* SearchTermViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchTermViewController.swift; path = "Tab bar VC/SearchTermViewController.swift"; sourceTree = "<group>"; };
+		83EBAC051F2B7C1700C4DB4A /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductViewController.swift; path = "Tab bar VC/ProductViewController.swift"; sourceTree = "<group>"; };
+		83F1836B1F29F6DC001AFDA0 /* CustomerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomerViewController.swift; path = "Tab bar VC/CustomerViewController.swift"; sourceTree = "<group>"; };
+		83F1836D1F29F700001AFDA0 /* CustomerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomerTableViewCell.swift; path = "Tab bar VC/CustomerTableViewCell.swift"; sourceTree = "<group>"; };
+		83F8E5451F6A8796001DA528 /* SearchUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchUserViewController.swift; path = "Tab bar VC/SearchUserViewController.swift"; sourceTree = "<group>"; };
+		83F8E5471F6AB317001DA528 /* OrderHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OrderHomeViewController.swift; path = "Tab bar VC/OrderHomeViewController.swift"; sourceTree = "<group>"; };
+		83FB2E072011F2BF00E7141C /* prodImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = prodImageCollectionViewCell.swift; path = "Tab bar VC/prodImageCollectionViewCell.swift"; sourceTree = "<group>"; };
+		9454D0A6026F15C3C296652C /* Pods-Magento AdminUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Magento AdminUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Magento AdminUITests/Pods-Magento AdminUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		963F2683B3CDE7F7D2A4EF2C /* Pods-Magento Admin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Magento Admin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Magento Admin/Pods-Magento Admin.debug.xcconfig"; sourceTree = "<group>"; };
+		B930863C5CA3A4889A379D8D /* Pods-Magento AdminUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Magento AdminUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Magento AdminUITests/Pods-Magento AdminUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C60D72BBB74CE4FF84F947A6 /* Pods_Magento_AdminUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Magento_AdminUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8326A7051FBB204400438A63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B7C36545B2219EE64CB3544 /* Pods_Magento_AdminUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83BA624D1F29AF110011DB7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				832710A61FE15E710027C7B2 /* UserNotifications.framework in Frameworks */,
+				831201961FC5B2BB00AAA6E5 /* ImageIO.framework in Frameworks */,
+				8349CE2D1F739BF900DCBC0B /* libsqlite3.tbd in Frameworks */,
+				B7C203E927E7B7BCEF297930 /* Pods_Magento_Admin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8302D3731FA9960E0037D533 /* SimpleBarChart */ = {
+			isa = PBXGroup;
+			children = (
+				8302D3741FA9960E0037D533 /* SimpleBarChart.h */,
+				8302D3751FA9960E0037D533 /* SimpleBarChart.m */,
+			);
+			path = SimpleBarChart;
+			sourceTree = "<group>";
+		};
+		8314B8391F4EB17B002C216D /* MB Progress Hud */ = {
+			isa = PBXGroup;
+			children = (
+				8314B83A1F4EB1A1002C216D /* MBProgressHUD.h */,
+				8314B83B1F4EB1A1002C216D /* MBProgressHUD.m */,
+			);
+			name = "MB Progress Hud";
+			sourceTree = "<group>";
+		};
+		831B21921F3C2EB4006E33CE /* ScanQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				831B21931F3C2EB4006E33CE /* AMScanQRCodeVC.swift */,
+			);
+			path = ScanQRCode;
+			sourceTree = "<group>";
+		};
+		831B21991F3C5F32006E33CE /* Slide Menu */ = {
+			isa = PBXGroup;
+			children = (
+				831B219A1F3C5F41006E33CE /* SlideMenuController.swift */,
+				831B21A01F3C6400006E33CE /* RightViewController.swift */,
+				831B21A21F3C658D006E33CE /* RightMenuTableViewCell.swift */,
+			);
+			name = "Slide Menu";
+			sourceTree = "<group>";
+		};
+		83225CD31F4D6C93000DDAD5 /* API Manager */ = {
+			isa = PBXGroup;
+			children = (
+				83225CD61F4D9F8A000DDAD5 /* SwiftyJSON.swift */,
+				83225CD41F4D6CCD000DDAD5 /* APIManager.swift */,
+				8317FE141F57EA9300672BE6 /* ConnectionCheck.swift */,
+			);
+			name = "API Manager";
+			sourceTree = "<group>";
+		};
+		8323BFAA1F7CDD2E00D55378 /* FMDB Local */ = {
+			isa = PBXGroup;
+			children = (
+				8323BFAB1F7CDD5B00D55378 /* MagentoDatabase.swift */,
+			);
+			name = "FMDB Local";
+			sourceTree = "<group>";
+		};
+		8326A7091FBB204400438A63 /* Magento AdminUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8326A70A1FBB204400438A63 /* Magento_AdminUITests.swift */,
+				8326A70C1FBB204400438A63 /* Info.plist */,
+			);
+			path = "Magento AdminUITests";
+			sourceTree = "<group>";
+		};
+		8327108B1FE11B900027C7B2 /* PNChart */ = {
+			isa = PBXGroup;
+			children = (
+				8327108C1FE11BB80027C7B2 /* Source */,
+			);
+			name = PNChart;
+			sourceTree = "<group>";
+		};
+		8327108C1FE11BB80027C7B2 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				8327108D1FE11BB80027C7B2 /* PNBar.swift */,
+				8327108E1FE11BB80027C7B2 /* PNBarChart.swift */,
+				8327108F1FE11BB80027C7B2 /* PNChartLabel.swift */,
+				832710901FE11BB80027C7B2 /* PNChartSwift.podspec */,
+				832710911FE11BB80027C7B2 /* PNColor.swift */,
+				832710921FE11BB80027C7B2 /* PNGenericChart.swift */,
+				832710931FE11BB80027C7B2 /* PNLineChart.swift */,
+				832710941FE11BB80027C7B2 /* PNLineChartData.swift */,
+				832710951FE11BB80027C7B2 /* PNLineChartDataItem.swift */,
+				832710961FE11BB80027C7B2 /* PNPieChart.swift */,
+				832710971FE11BB80027C7B2 /* PNPieChartDataItem.swift */,
+				832710981FE11BB80027C7B2 /* PNValue.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		8327C8911F6FB15D00D158A7 /* HCSStarRatingView */ = {
+			isa = PBXGroup;
+			children = (
+				8327C8921F6FB15D00D158A7 /* HCSStarRatingView.h */,
+				8327C8931F6FB15D00D158A7 /* HCSStarRatingView.m */,
+				8327C8941F6FB15D00D158A7 /* Info.plist */,
+			);
+			path = HCSStarRatingView;
+			sourceTree = "<group>";
+		};
+		832EE6941F850B170047C53F /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				83DC4C691F29EDAB00B3B1EA /* DashboardViewController.swift */,
+				83DC4C6B1F29EEBE00B3B1EA /* CustomTableViewCell.swift */,
+				83EBAC031F2B75FA00C4DB4A /* SearchTermViewController.swift */,
+				83EBAC011F2B75E300C4DB4A /* SearchTermTableViewCell.swift */,
+			);
+			name = Dashboard;
+			sourceTree = "<group>";
+		};
+		832EE6951F850B2D0047C53F /* Customer */ = {
+			isa = PBXGroup;
+			children = (
+				83F1836B1F29F6DC001AFDA0 /* CustomerViewController.swift */,
+				83F1836D1F29F700001AFDA0 /* CustomerTableViewCell.swift */,
+				8304EE1F1F2A0CB5000FC467 /* CustomerIntViewController.swift */,
+				8304EE211F2A0CD3000FC467 /* CustomIntTableViewCell.swift */,
+				83EBABF91F2B102600C4DB4A /* CustomerDetailViewController.swift */,
+				83EBABFB1F2B105900C4DB4A /* CustomerDetailTableViewCell.swift */,
+				83F8E5451F6A8796001DA528 /* SearchUserViewController.swift */,
+				83D0989C1FDA9D5000B476F4 /* EditCustomerViewController.swift */,
+				839189C92040507C0053E855 /* CustomerCollectionCell.swift */,
+			);
+			name = Customer;
+			sourceTree = "<group>";
+		};
+		832EE6961F850B3D0047C53F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				83EBAC051F2B7C1700C4DB4A /* ProductViewController.swift */,
+				831B21971F3C5002006E33CE /* ProductTableViewCell.swift */,
+				83D0989A1FDA9D1800B476F4 /* EditCategoryViewController.swift */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		832EE6971F850B600047C53F /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				83F8E5471F6AB317001DA528 /* OrderHomeViewController.swift */,
+				83E54F021F2A223600A85ADC /* OrderViewController.swift */,
+				83E54F041F2A225200A85ADC /* OrderTableViewCell.swift */,
+				83EBABFD1F2B458600C4DB4A /* OrderDetailViewController.swift */,
+				83EBABFF1F2B45A400C4DB4A /* OrderDetailTableViewCell.swift */,
+				831B21A41F3C77BE006E33CE /* SearchViewController.swift */,
+			);
+			name = Order;
+			sourceTree = "<group>";
+		};
+		832EE6981F850B7E0047C53F /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				832EE6991F850BBA0047C53F /* ProductListViewController.swift */,
+				832EE69B1F850CB30047C53F /* ProductListTableViewCell.swift */,
+				83E8959B1F3DB62000C1571D /* ProductDetailViewController.swift */,
+				8327C88F1F6F9C1400D158A7 /* ProductReviewTableViewCell.swift */,
+				8344FCBC1F8B4C3E0001EB05 /* SearchProductViewController.swift */,
+				83AE11D91FDFACBB00EF712E /* EditProductViewController.swift */,
+				83AE11DB1FDFE9DD00EF712E /* EditProd1TableViewCell.swift */,
+				83DF8BA31FEA802500A01941 /* CouponViewController.swift */,
+				83DF8BA51FEA828300A01941 /* CouponTableViewCell.swift */,
+				83FB2E072011F2BF00E7141C /* prodImageCollectionViewCell.swift */,
+			);
+			name = Product;
+			sourceTree = "<group>";
+		};
+		8349CE091F7399F300DCBC0B /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				8356E03E20316CB500FEE94E /* AAInfographics */,
+				8327108B1FE11B900027C7B2 /* PNChart */,
+				83688ACC2021DD8C00C5F97D /* YYCache */,
+				8378354F1F835F6100AE1339 /* ObjRef.swift */,
+				83EB13C32007555500E04E79 /* CurrencyLabel.swift */,
+				832EE6921F84F6DE0047C53F /* CustomLabel.swift */,
+				837FA8551FFB69DD0039EF16 /* CustomPicker.swift */,
+				83E59E461FC3127E00E84226 /* ImageCacheLoader.swift */,
+				83E59DEC1FC3041800E84226 /* SDWebImage */,
+				831B21991F3C5F32006E33CE /* Slide Menu */,
+				831B21921F3C2EB4006E33CE /* ScanQRCode */,
+				83B025301F3B0BD600AB3CA1 /* Bar Chart */,
+				83225CD31F4D6C93000DDAD5 /* API Manager */,
+				8323BFAA1F7CDD2E00D55378 /* FMDB Local */,
+				8349CE0A1F739A0D00DCBC0B /* Local DB */,
+				8327C8911F6FB15D00D158A7 /* HCSStarRatingView */,
+				8314B8391F4EB17B002C216D /* MB Progress Hud */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		8349CE0A1F739A0D00DCBC0B /* Local DB */ = {
+			isa = PBXGroup;
+			children = (
+				8349CE0B1F739A1C00DCBC0B /* extra */,
+				8349CE151F739A1C00DCBC0B /* fmdb */,
+			);
+			name = "Local DB";
+			sourceTree = "<group>";
+		};
+		8349CE0B1F739A1C00DCBC0B /* extra */ = {
+			isa = PBXGroup;
+			children = (
+				8349CE0C1F739A1C00DCBC0B /* fts3 */,
+				8349CE121F739A1C00DCBC0B /* InMemoryOnDiskIO */,
+			);
+			path = extra;
+			sourceTree = "<group>";
+		};
+		8349CE0C1F739A1C00DCBC0B /* fts3 */ = {
+			isa = PBXGroup;
+			children = (
+				8349CE0D1F739A1C00DCBC0B /* FMDatabase+FTS3.h */,
+				8349CE0E1F739A1C00DCBC0B /* FMDatabase+FTS3.m */,
+				8349CE0F1F739A1C00DCBC0B /* FMTokenizers.h */,
+				8349CE101F739A1C00DCBC0B /* FMTokenizers.m */,
+				8349CE111F739A1C00DCBC0B /* fts3_tokenizer.h */,
+			);
+			path = fts3;
+			sourceTree = "<group>";
+		};
+		8349CE121F739A1C00DCBC0B /* InMemoryOnDiskIO */ = {
+			isa = PBXGroup;
+			children = (
+				8349CE131F739A1C00DCBC0B /* FMDatabase+InMemoryOnDiskIO.h */,
+				8349CE141F739A1C00DCBC0B /* FMDatabase+InMemoryOnDiskIO.m */,
+			);
+			path = InMemoryOnDiskIO;
+			sourceTree = "<group>";
+		};
+		8349CE151F739A1C00DCBC0B /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				8349CE161F739A1C00DCBC0B /* FMDatabase.h */,
+				8349CE171F739A1C00DCBC0B /* FMDatabase.m */,
+				8349CE181F739A1C00DCBC0B /* FMDatabaseAdditions.h */,
+				8349CE191F739A1C00DCBC0B /* FMDatabaseAdditions.m */,
+				8349CE1A1F739A1C00DCBC0B /* FMDatabasePool.h */,
+				8349CE1B1F739A1C00DCBC0B /* FMDatabasePool.m */,
+				8349CE1C1F739A1C00DCBC0B /* FMDatabaseQueue.h */,
+				8349CE1D1F739A1C00DCBC0B /* FMDatabaseQueue.m */,
+				8349CE1E1F739A1C00DCBC0B /* FMDB.h */,
+				8349CE1F1F739A1C00DCBC0B /* FMResultSet.h */,
+				8349CE201F739A1C00DCBC0B /* FMResultSet.m */,
+				8349CE211F739A1C00DCBC0B /* Info.plist */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		8349CE2B1F739BF900DCBC0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				832710A51FE15E710027C7B2 /* UserNotifications.framework */,
+				831201951FC5B2BB00AAA6E5 /* ImageIO.framework */,
+				8349CE2C1F739BF900DCBC0B /* libsqlite3.tbd */,
+				1AFBF3050EA1A018FCACD4B0 /* Pods_Magento_Admin.framework */,
+				C60D72BBB74CE4FF84F947A6 /* Pods_Magento_AdminUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8354F5321F3B3F9600077415 /* UUChart */ = {
+			isa = PBXGroup;
+			children = (
+				8354F5331F3B3F9600077415 /* UUBar.h */,
+				8354F5341F3B3F9600077415 /* UUBar.m */,
+				8354F5351F3B3F9600077415 /* UUBarChart.h */,
+				8354F5361F3B3F9600077415 /* UUBarChart.m */,
+				8354F5371F3B3F9600077415 /* UUChart.h */,
+				8354F5381F3B3F9600077415 /* UUChart.m */,
+				8354F5391F3B3F9600077415 /* UUChartConst.h */,
+				8354F53A1F3B3F9600077415 /* UUChartConst.m */,
+				8354F53B1F3B3F9600077415 /* UUChartLabel.h */,
+				8354F53C1F3B3F9600077415 /* UUChartLabel.m */,
+				8354F53D1F3B3F9600077415 /* UULineChart.h */,
+				8354F53E1F3B3F9600077415 /* UULineChart.m */,
+			);
+			path = UUChart;
+			sourceTree = "<group>";
+		};
+		8356E03E20316CB500FEE94E /* AAInfographics */ = {
+			isa = PBXGroup;
+			children = (
+				8356E03F20316CB500FEE94E /* AAChartCreator */,
+				8356E04320316CB500FEE94E /* AAJSFiles */,
+			);
+			path = AAInfographics;
+			sourceTree = "<group>";
+		};
+		8356E03F20316CB500FEE94E /* AAChartCreator */ = {
+			isa = PBXGroup;
+			children = (
+				8356E04020316CB500FEE94E /* AAChartModel.swift */,
+				8356E04120316CB500FEE94E /* AAChartView.swift */,
+				8356E04220316CB500FEE94E /* AASerializable.swift */,
+			);
+			path = AAChartCreator;
+			sourceTree = "<group>";
+		};
+		8356E04320316CB500FEE94E /* AAJSFiles */ = {
+			isa = PBXGroup;
+			children = (
+				8356E04420316CB500FEE94E /* AAChartView.html */,
+				8356E04520316CB500FEE94E /* AAFunnel.js */,
+				8356E04620316CB500FEE94E /* AAHighcharts-3d.js */,
+				8356E04720316CB500FEE94E /* AAHighchartsLib.js */,
+				8356E04820316CB500FEE94E /* AAHighchartsMore.js */,
+				8356E04920316CB500FEE94E /* AAOptionsConstructor.js */,
+			);
+			path = AAJSFiles;
+			sourceTree = "<group>";
+		};
+		83688ACC2021DD8C00C5F97D /* YYCache */ = {
+			isa = PBXGroup;
+			children = (
+				83688ACD2021DD8C00C5F97D /* YYCache.h */,
+				83688ACE2021DD8C00C5F97D /* YYCache.m */,
+				83688ACF2021DD8C00C5F97D /* YYDiskCache.h */,
+				83688AD02021DD8C00C5F97D /* YYDiskCache.m */,
+				83688AD12021DD8C00C5F97D /* YYKVStorage.h */,
+				83688AD22021DD8C00C5F97D /* YYKVStorage.m */,
+				83688AD32021DD8C00C5F97D /* YYMemoryCache.h */,
+				83688AD42021DD8C00C5F97D /* YYMemoryCache.m */,
+			);
+			path = YYCache;
+			sourceTree = "<group>";
+		};
+		83B025301F3B0BD600AB3CA1 /* Bar Chart */ = {
+			isa = PBXGroup;
+			children = (
+				8302D3731FA9960E0037D533 /* SimpleBarChart */,
+				8354F5321F3B3F9600077415 /* UUChart */,
+			);
+			name = "Bar Chart";
+			sourceTree = "<group>";
+		};
+		83BA62471F29AF110011DB7C = {
+			isa = PBXGroup;
+			children = (
+				83BA62521F29AF120011DB7C /* Magento Admin */,
+				8326A7091FBB204400438A63 /* Magento AdminUITests */,
+				83BA62511F29AF120011DB7C /* Products */,
+				8349CE2B1F739BF900DCBC0B /* Frameworks */,
+				F52C463A018227CE04FD5729 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		83BA62511F29AF120011DB7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83BA62501F29AF120011DB7C /* Magento Admin.app */,
+				8326A7081FBB204400438A63 /* Magento AdminUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83BA62521F29AF120011DB7C /* Magento Admin */ = {
+			isa = PBXGroup;
+			children = (
+				83B3FFF51F3AED5E006579D3 /* Magento Admin-Bridging-Header.h */,
+				8349CE091F7399F300DCBC0B /* Libs */,
+				83DC4C681F29ED6C00B3B1EA /* Tab View Controller */,
+				83BA62531F29AF120011DB7C /* AppDelegate.swift */,
+				831B21951F3C2FB5006E33CE /* ScanQRCodeViewController.swift */,
+				83BA62551F29AF120011DB7C /* ViewController.swift */,
+				831B21A81F3C8F34006E33CE /* MagentoTabBarController.swift */,
+				83177D351FD174CD006E411F /* ModuleDescViewController.swift */,
+				83C5BD141F568ABF0062174F /* HomeViewController.swift */,
+				831F1E001F90C6A400E44406 /* CustomTabBar.swift */,
+				831FF7C8202C77EF00935776 /* StackedBarsExample.swift */,
+				831FF7CE202C7CB500935776 /* ExamplesDefaults.swift */,
+				831FF7D0202C7CEA00935776 /* Env.swift */,
+				83BA62571F29AF120011DB7C /* Main.storyboard */,
+				83BA625A1F29AF120011DB7C /* Assets.xcassets */,
+				83BA625C1F29AF120011DB7C /* LaunchScreen.storyboard */,
+				83BA625F1F29AF120011DB7C /* Info.plist */,
+				832534161FE7FEDF00A97E33 /* Localizable.strings */,
+			);
+			path = "Magento Admin";
+			sourceTree = "<group>";
+		};
+		83DC4C681F29ED6C00B3B1EA /* Tab View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				83E722C41F74E5D600739112 /* DB Structure Classes */,
+				832EE6941F850B170047C53F /* Dashboard */,
+				832EE6981F850B7E0047C53F /* Product */,
+				832EE6961F850B3D0047C53F /* Category */,
+				832EE6951F850B2D0047C53F /* Customer */,
+				832EE6971F850B600047C53F /* Order */,
+				8327C8971F6FCB5300D158A7 /* BestSellarViewController.swift */,
+				8327C8991F6FD9B300D158A7 /* BestSellarTableViewCell.swift */,
+				83C3A89C1F50491900B4020E /* ChangePasswordViewController.swift */,
+				8397BEE31FE7D6BA00E252EF /* MultistoreViewController.swift */,
+			);
+			name = "Tab View Controller";
+			sourceTree = "<group>";
+		};
+		83E59DEC1FC3041800E84226 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				83E59DED1FC3041800E84226 /* FLAnimatedImage */,
+				83E59DF01FC3041800E84226 /* MKAnnotationView+WebCache.h */,
+				83E59DF11FC3041800E84226 /* MKAnnotationView+WebCache.m */,
+				83E59DF21FC3041800E84226 /* NSData+ImageContentType.h */,
+				83E59DF31FC3041800E84226 /* NSData+ImageContentType.m */,
+				83E59DF41FC3041800E84226 /* NSImage+WebCache.h */,
+				83E59DF51FC3041800E84226 /* NSImage+WebCache.m */,
+				83E59DF61FC3041800E84226 /* SDImageCache.h */,
+				83E59DF71FC3041800E84226 /* SDImageCache.m */,
+				83E59DF81FC3041800E84226 /* SDImageCacheConfig.h */,
+				83E59DF91FC3041800E84226 /* SDImageCacheConfig.m */,
+				83E59DFA1FC3041800E84226 /* SDWebImageCoder.h */,
+				83E59DFB1FC3041800E84226 /* SDWebImageCoder.m */,
+				83E59DFC1FC3041800E84226 /* SDWebImageCoderHelper.h */,
+				83E59DFD1FC3041800E84226 /* SDWebImageCoderHelper.m */,
+				83E59DFE1FC3041800E84226 /* SDWebImageCodersManager.h */,
+				83E59DFF1FC3041800E84226 /* SDWebImageCodersManager.m */,
+				83E59E001FC3041800E84226 /* SDWebImageCompat.h */,
+				83E59E011FC3041800E84226 /* SDWebImageCompat.m */,
+				83E59E021FC3041800E84226 /* SDWebImageDownloader.h */,
+				83E59E031FC3041800E84226 /* SDWebImageDownloader.m */,
+				83E59E041FC3041800E84226 /* SDWebImageDownloaderOperation.h */,
+				83E59E051FC3041800E84226 /* SDWebImageDownloaderOperation.m */,
+				83E59E061FC3041800E84226 /* SDWebImageFrame.h */,
+				83E59E071FC3041800E84226 /* SDWebImageFrame.m */,
+				83E59E081FC3041800E84226 /* SDWebImageGIFCoder.h */,
+				83E59E091FC3041800E84226 /* SDWebImageGIFCoder.m */,
+				83E59E0A1FC3041800E84226 /* SDWebImageImageIOCoder.h */,
+				83E59E0B1FC3041800E84226 /* SDWebImageImageIOCoder.m */,
+				83E59E0C1FC3041800E84226 /* SDWebImageManager.h */,
+				83E59E0D1FC3041800E84226 /* SDWebImageManager.m */,
+				83E59E0E1FC3041800E84226 /* SDWebImageOperation.h */,
+				83E59E0F1FC3041800E84226 /* SDWebImagePrefetcher.h */,
+				83E59E101FC3041800E84226 /* SDWebImagePrefetcher.m */,
+				83E59E111FC3041800E84226 /* SDWebImageWebPCoder.h */,
+				83E59E121FC3041800E84226 /* SDWebImageWebPCoder.m */,
+				83E59E131FC3041800E84226 /* UIButton+WebCache.h */,
+				83E59E141FC3041800E84226 /* UIButton+WebCache.m */,
+				83E59E151FC3041800E84226 /* UIImage+ForceDecode.h */,
+				83E59E161FC3041800E84226 /* UIImage+ForceDecode.m */,
+				83E59E171FC3041800E84226 /* UIImage+GIF.h */,
+				83E59E181FC3041800E84226 /* UIImage+GIF.m */,
+				83E59E191FC3041800E84226 /* UIImage+MultiFormat.h */,
+				83E59E1A1FC3041800E84226 /* UIImage+MultiFormat.m */,
+				83E59E1B1FC3041800E84226 /* UIImage+WebP.h */,
+				83E59E1C1FC3041800E84226 /* UIImage+WebP.m */,
+				83E59E1D1FC3041800E84226 /* UIImageView+HighlightedWebCache.h */,
+				83E59E1E1FC3041800E84226 /* UIImageView+HighlightedWebCache.m */,
+				83E59E1F1FC3041800E84226 /* UIImageView+WebCache.h */,
+				83E59E201FC3041800E84226 /* UIImageView+WebCache.m */,
+				83E59E211FC3041800E84226 /* UIView+WebCache.h */,
+				83E59E221FC3041800E84226 /* UIView+WebCache.m */,
+				83E59E231FC3041800E84226 /* UIView+WebCacheOperation.h */,
+				83E59E241FC3041800E84226 /* UIView+WebCacheOperation.m */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		83E59DED1FC3041800E84226 /* FLAnimatedImage */ = {
+			isa = PBXGroup;
+			children = (
+				83E59E401FC306A100E84226 /* FLAnimatedImage.h */,
+				83E59E411FC306A100E84226 /* FLAnimatedImage.m */,
+				83E59E421FC306A100E84226 /* FLAnimatedImageView.h */,
+				83E59E431FC306A100E84226 /* FLAnimatedImageView.m */,
+				83E59DEE1FC3041800E84226 /* FLAnimatedImageView+WebCache.h */,
+				83E59DEF1FC3041800E84226 /* FLAnimatedImageView+WebCache.m */,
+			);
+			path = FLAnimatedImage;
+			sourceTree = "<group>";
+		};
+		83E722C41F74E5D600739112 /* DB Structure Classes */ = {
+			isa = PBXGroup;
+			children = (
+				83E722C51F74E62B00739112 /* UserObj.swift */,
+			);
+			name = "DB Structure Classes";
+			sourceTree = "<group>";
+		};
+		F52C463A018227CE04FD5729 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				963F2683B3CDE7F7D2A4EF2C /* Pods-Magento Admin.debug.xcconfig */,
+				7614ADE4E0A92C6409C55DC4 /* Pods-Magento Admin.release.xcconfig */,
+				9454D0A6026F15C3C296652C /* Pods-Magento AdminUITests.debug.xcconfig */,
+				B930863C5CA3A4889A379D8D /* Pods-Magento AdminUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8326A7071FBB204400438A63 /* Magento AdminUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8326A7111FBB204400438A63 /* Build configuration list for PBXNativeTarget "Magento AdminUITests" */;
+			buildPhases = (
+				2C8C5855FF93C4910E8170A5 /* [CP] Check Pods Manifest.lock */,
+				8326A7041FBB204400438A63 /* Sources */,
+				8326A7051FBB204400438A63 /* Frameworks */,
+				8326A7061FBB204400438A63 /* Resources */,
+				A781C0D29F9FA66DE9FC6FEE /* [CP] Embed Pods Frameworks */,
+				27CEA27BA58442C72EDD9113 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8326A70E1FBB204400438A63 /* PBXTargetDependency */,
+			);
+			name = "Magento AdminUITests";
+			productName = "Magento AdminUITests";
+			productReference = 8326A7081FBB204400438A63 /* Magento AdminUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		83BA624F1F29AF110011DB7C /* Magento Admin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83BA62621F29AF120011DB7C /* Build configuration list for PBXNativeTarget "Magento Admin" */;
+			buildPhases = (
+				BA41E6DCFBC2B27982F6C38B /* [CP] Check Pods Manifest.lock */,
+				83BA624C1F29AF110011DB7C /* Sources */,
+				83BA624D1F29AF110011DB7C /* Frameworks */,
+				83BA624E1F29AF110011DB7C /* Resources */,
+				8370ECE8202081140070D437 /* Embed Frameworks */,
+				6F6503AFF3C49DEC2D178EAD /* [CP] Embed Pods Frameworks */,
+				8AC67D828ECCC0BBBB9397BA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Magento Admin";
+			productName = "Magento Admin";
+			productReference = 83BA62501F29AF120011DB7C /* Magento Admin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83BA62481F29AF110011DB7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Lokesh Gupta";
+				TargetAttributes = {
+					8326A7071FBB204400438A63 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 83BA624F1F29AF110011DB7C;
+					};
+					83BA624F1F29AF110011DB7C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = JW533K8V9M;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 83BA624B1F29AF110011DB7C /* Build configuration list for PBXProject "Magento Admin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+			);
+			mainGroup = 83BA62471F29AF110011DB7C;
+			productRefGroup = 83BA62511F29AF120011DB7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83BA624F1F29AF110011DB7C /* Magento Admin */,
+				8326A7071FBB204400438A63 /* Magento AdminUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8326A7061FBB204400438A63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83BA624E1F29AF110011DB7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8356E05120316FA500FEE94E /* AAHighchartsMore.js in Resources */,
+				8327C8961F6FB15D00D158A7 /* Info.plist in Resources */,
+				8356E04E20316FA500FEE94E /* AAFunnel.js in Resources */,
+				83BA625E1F29AF120011DB7C /* LaunchScreen.storyboard in Resources */,
+				8356E04D20316FA500FEE94E /* AAChartView.html in Resources */,
+				83BA625B1F29AF120011DB7C /* Assets.xcassets in Resources */,
+				8356E05220316FA500FEE94E /* AAOptionsConstructor.js in Resources */,
+				8356E05020316FA500FEE94E /* AAHighchartsLib.js in Resources */,
+				832534181FE7FEDF00A97E33 /* Localizable.strings in Resources */,
+				8356E04F20316FA500FEE94E /* AAHighcharts-3d.js in Resources */,
+				8349CE2A1F739A1C00DCBC0B /* Info.plist in Resources */,
+				83BA62591F29AF120011DB7C /* Main.storyboard in Resources */,
+				8327109C1FE11BB80027C7B2 /* PNChartSwift.podspec in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27CEA27BA58442C72EDD9113 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Magento AdminUITests/Pods-Magento AdminUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C8C5855FF93C4910E8170A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Magento AdminUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F6503AFF3C49DEC2D178EAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Magento Admin/Pods-Magento Admin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftCharts/SwiftCharts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftCharts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Magento Admin/Pods-Magento Admin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AC67D828ECCC0BBBB9397BA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Magento Admin/Pods-Magento Admin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A781C0D29F9FA66DE9FC6FEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Magento AdminUITests/Pods-Magento AdminUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA41E6DCFBC2B27982F6C38B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Magento Admin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8326A7041FBB204400438A63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8326A70B1FBB204400438A63 /* Magento_AdminUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83BA624C1F29AF110011DB7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				831B21A51F3C77BE006E33CE /* SearchViewController.swift in Sources */,
+				832710A41FE11BB80027C7B2 /* PNValue.swift in Sources */,
+				83E59E341FC3041800E84226 /* SDWebImageManager.m in Sources */,
+				8349CE241F739A1C00DCBC0B /* FMDatabase+InMemoryOnDiskIO.m in Sources */,
+				83E59E351FC3041800E84226 /* SDWebImagePrefetcher.m in Sources */,
+				83E59E3F1FC3041800E84226 /* UIView+WebCacheOperation.m in Sources */,
+				83FB2E082011F2BF00E7141C /* prodImageCollectionViewCell.swift in Sources */,
+				83F8E5461F6A8796001DA528 /* SearchUserViewController.swift in Sources */,
+				83EBABFC1F2B105900C4DB4A /* CustomerDetailTableViewCell.swift in Sources */,
+				8327109E1FE11BB80027C7B2 /* PNGenericChart.swift in Sources */,
+				83EB13C42007555500E04E79 /* CurrencyLabel.swift in Sources */,
+				83E59E361FC3041800E84226 /* SDWebImageWebPCoder.m in Sources */,
+				831FF7CF202C7CB600935776 /* ExamplesDefaults.swift in Sources */,
+				831B21A31F3C658D006E33CE /* RightMenuTableViewCell.swift in Sources */,
+				833DF1291F5ED9BB005C6A2F /* CustomerDetailViewController.swift in Sources */,
+				8349CE291F739A1C00DCBC0B /* FMResultSet.m in Sources */,
+				83E59E291FC3041800E84226 /* SDImageCache.m in Sources */,
+				83688ADF2021DDE700C5F97D /* YYMemoryCache.m in Sources */,
+				83C5BD151F568ABF0062174F /* HomeViewController.swift in Sources */,
+				831B21A11F3C6400006E33CE /* RightViewController.swift in Sources */,
+				8323BFAC1F7CDD5B00D55378 /* MagentoDatabase.swift in Sources */,
+				83E59E2D1FC3041800E84226 /* SDWebImageCodersManager.m in Sources */,
+				8354F53F1F3B3F9600077415 /* UUBar.m in Sources */,
+				83E59E391FC3041800E84226 /* UIImage+GIF.m in Sources */,
+				83E59E311FC3041800E84226 /* SDWebImageFrame.m in Sources */,
+				8327C89A1F6FD9B300D158A7 /* BestSellarTableViewCell.swift in Sources */,
+				8354F5421F3B3F9600077415 /* UUChartConst.m in Sources */,
+				83177D361FD174CD006E411F /* ModuleDescViewController.swift in Sources */,
+				83E59E3E1FC3041800E84226 /* UIView+WebCache.m in Sources */,
+				83E722C61F74E62B00739112 /* UserObj.swift in Sources */,
+				8304EE221F2A0CD3000FC467 /* CustomIntTableViewCell.swift in Sources */,
+				8349CE261F739A1C00DCBC0B /* FMDatabaseAdditions.m in Sources */,
+				831F1E011F90C6A400E44406 /* CustomTabBar.swift in Sources */,
+				83E59E3D1FC3041800E84226 /* UIImageView+WebCache.m in Sources */,
+				83BA62561F29AF120011DB7C /* ViewController.swift in Sources */,
+				8349CE281F739A1C00DCBC0B /* FMDatabaseQueue.m in Sources */,
+				8304EE201F2A0CB5000FC467 /* CustomerIntViewController.swift in Sources */,
+				8327C8981F6FCB5300D158A7 /* BestSellarViewController.swift in Sources */,
+				8344FCBD1F8B4C3E0001EB05 /* SearchProductViewController.swift in Sources */,
+				83E59E441FC306A100E84226 /* FLAnimatedImage.m in Sources */,
+				83E59E381FC3041800E84226 /* UIImage+ForceDecode.m in Sources */,
+				8349CE251F739A1C00DCBC0B /* FMDatabase.m in Sources */,
+				83EBAC061F2B7C1700C4DB4A /* ProductViewController.swift in Sources */,
+				831FF7C9202C77EF00935776 /* StackedBarsExample.swift in Sources */,
+				831B21981F3C5002006E33CE /* ProductTableViewCell.swift in Sources */,
+				831FF7D1202C7CEA00935776 /* Env.swift in Sources */,
+				83DF8BA41FEA802500A01941 /* CouponViewController.swift in Sources */,
+				8349CE231F739A1C00DCBC0B /* FMTokenizers.m in Sources */,
+				83D0989B1FDA9D1800B476F4 /* EditCategoryViewController.swift in Sources */,
+				83E59E271FC3041800E84226 /* NSData+ImageContentType.m in Sources */,
+				83E59E321FC3041800E84226 /* SDWebImageGIFCoder.m in Sources */,
+				837835501F835F6100AE1339 /* ObjRef.swift in Sources */,
+				831B21A91F3C8F34006E33CE /* MagentoTabBarController.swift in Sources */,
+				832710A11FE11BB80027C7B2 /* PNLineChartDataItem.swift in Sources */,
+				8354F5401F3B3F9600077415 /* UUBarChart.m in Sources */,
+				83E59E371FC3041800E84226 /* UIButton+WebCache.m in Sources */,
+				83E59E2C1FC3041800E84226 /* SDWebImageCoderHelper.m in Sources */,
+				83E8959C1F3DB62000C1571D /* ProductDetailViewController.swift in Sources */,
+				8317FE151F57EA9300672BE6 /* ConnectionCheck.swift in Sources */,
+				83E59E451FC306A100E84226 /* FLAnimatedImageView.m in Sources */,
+				83688ADE2021DDE700C5F97D /* YYKVStorage.m in Sources */,
+				83225CD51F4D6CCD000DDAD5 /* APIManager.swift in Sources */,
+				83DC4C6A1F29EDAB00B3B1EA /* DashboardViewController.swift in Sources */,
+				832710991FE11BB80027C7B2 /* PNBar.swift in Sources */,
+				832EE6931F84F6DE0047C53F /* CustomLabel.swift in Sources */,
+				83E59E2E1FC3041800E84226 /* SDWebImageCompat.m in Sources */,
+				83D0989D1FDA9D5000B476F4 /* EditCustomerViewController.swift in Sources */,
+				832710A01FE11BB80027C7B2 /* PNLineChartData.swift in Sources */,
+				83F8E5481F6AB317001DA528 /* OrderHomeViewController.swift in Sources */,
+				83E59E3A1FC3041800E84226 /* UIImage+MultiFormat.m in Sources */,
+				83EBAC041F2B75FA00C4DB4A /* SearchTermViewController.swift in Sources */,
+				8349CE221F739A1C00DCBC0B /* FMDatabase+FTS3.m in Sources */,
+				8354F5411F3B3F9600077415 /* UUChart.m in Sources */,
+				832710A21FE11BB80027C7B2 /* PNPieChart.swift in Sources */,
+				8327C8901F6F9C1400D158A7 /* ProductReviewTableViewCell.swift in Sources */,
+				8327109A1FE11BB80027C7B2 /* PNBarChart.swift in Sources */,
+				831B219B1F3C5F41006E33CE /* SlideMenuController.swift in Sources */,
+				83E59E2A1FC3041800E84226 /* SDImageCacheConfig.m in Sources */,
+				83F1836C1F29F6DC001AFDA0 /* CustomerViewController.swift in Sources */,
+				83C3A89D1F50491900B4020E /* ChangePasswordViewController.swift in Sources */,
+				83EBAC001F2B45A400C4DB4A /* OrderDetailTableViewCell.swift in Sources */,
+				8356E04B20316F9F00FEE94E /* AAChartView.swift in Sources */,
+				8327109B1FE11BB80027C7B2 /* PNChartLabel.swift in Sources */,
+				83E59E281FC3041800E84226 /* NSImage+WebCache.m in Sources */,
+				83DC4C6C1F29EEBE00B3B1EA /* CustomTableViewCell.swift in Sources */,
+				83E54F051F2A225200A85ADC /* OrderTableViewCell.swift in Sources */,
+				83AE11DA1FDFACBB00EF712E /* EditProductViewController.swift in Sources */,
+				8327109D1FE11BB80027C7B2 /* PNColor.swift in Sources */,
+				83AE11DC1FDFE9DD00EF712E /* EditProd1TableViewCell.swift in Sources */,
+				8349CE271F739A1C00DCBC0B /* FMDatabasePool.m in Sources */,
+				831B21961F3C2FB5006E33CE /* ScanQRCodeViewController.swift in Sources */,
+				83EBABFE1F2B458600C4DB4A /* OrderDetailViewController.swift in Sources */,
+				831B21941F3C2EB4006E33CE /* AMScanQRCodeVC.swift in Sources */,
+				8356E04C20316F9F00FEE94E /* AASerializable.swift in Sources */,
+				83E59E2B1FC3041800E84226 /* SDWebImageCoder.m in Sources */,
+				83E59E251FC3041800E84226 /* FLAnimatedImageView+WebCache.m in Sources */,
+				83E59E3B1FC3041800E84226 /* UIImage+WebP.m in Sources */,
+				832710A31FE11BB80027C7B2 /* PNPieChartDataItem.swift in Sources */,
+				8397BEE41FE7D6BA00E252EF /* MultistoreViewController.swift in Sources */,
+				83E59E3C1FC3041800E84226 /* UIImageView+HighlightedWebCache.m in Sources */,
+				8314B83C1F4EB1A1002C216D /* MBProgressHUD.m in Sources */,
+				837FA8561FFB69DD0039EF16 /* CustomPicker.swift in Sources */,
+				83BA62541F29AF120011DB7C /* AppDelegate.swift in Sources */,
+				832EE69C1F850CB30047C53F /* ProductListTableViewCell.swift in Sources */,
+				83688ADD2021DDE700C5F97D /* YYDiskCache.m in Sources */,
+				83E59E261FC3041800E84226 /* MKAnnotationView+WebCache.m in Sources */,
+				832EE69A1F850BBA0047C53F /* ProductListViewController.swift in Sources */,
+				83E59E301FC3041800E84226 /* SDWebImageDownloaderOperation.m in Sources */,
+				8302D3761FA9960E0037D533 /* SimpleBarChart.m in Sources */,
+				83E59E331FC3041800E84226 /* SDWebImageImageIOCoder.m in Sources */,
+				83E59E2F1FC3041800E84226 /* SDWebImageDownloader.m in Sources */,
+				83EBAC021F2B75E300C4DB4A /* SearchTermTableViewCell.swift in Sources */,
+				83DF8BA61FEA828300A01941 /* CouponTableViewCell.swift in Sources */,
+				839189CA2040507C0053E855 /* CustomerCollectionCell.swift in Sources */,
+				8354F5431F3B3F9600077415 /* UUChartLabel.m in Sources */,
+				83F1836E1F29F700001AFDA0 /* CustomerTableViewCell.swift in Sources */,
+				8327109F1FE11BB80027C7B2 /* PNLineChart.swift in Sources */,
+				83225CD71F4D9F8A000DDAD5 /* SwiftyJSON.swift in Sources */,
+				83E54F031F2A223600A85ADC /* OrderViewController.swift in Sources */,
+				83688ADC2021DDE700C5F97D /* YYCache.m in Sources */,
+				8327C8951F6FB15D00D158A7 /* HCSStarRatingView.m in Sources */,
+				83E59E471FC3127E00E84226 /* ImageCacheLoader.swift in Sources */,
+				8356E04A20316F9F00FEE94E /* AAChartModel.swift in Sources */,
+				8354F5441F3B3F9600077415 /* UULineChart.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8326A70E1FBB204400438A63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83BA624F1F29AF110011DB7C /* Magento Admin */;
+			targetProxy = 8326A70D1FBB204400438A63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		832534161FE7FEDF00A97E33 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				832534171FE7FEDF00A97E33 /* Base */,
+				832092BA1FE927A300FC9716 /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		83BA62571F29AF120011DB7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83BA62581F29AF120011DB7C /* Base */,
+				832092BC1FE92BBE00FC9716 /* fr */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83BA625C1F29AF120011DB7C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83BA625D1F29AF120011DB7C /* Base */,
+				832092B91FE927A300FC9716 /* fr */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8326A70F1FBB204400438A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9454D0A6026F15C3C296652C /* Pods-Magento AdminUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "Magento AdminUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nethues.Magento-AdminUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Magento Admin";
+			};
+			name = Debug;
+		};
+		8326A7101FBB204400438A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B930863C5CA3A4889A379D8D /* Pods-Magento AdminUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "Magento AdminUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nethues.Magento-AdminUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Magento Admin";
+			};
+			name = Release;
+		};
+		83BA62601F29AF120011DB7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83BA62611F29AF120011DB7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83BA62631F29AF120011DB7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 963F2683B3CDE7F7D2A4EF2C /* Pods-Magento Admin.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Lokesh Gupta (JW533K8V9M)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Magento\\ Admin",
+				);
+				INFOPLIST_FILE = "Magento Admin/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nethues.Magento-Admin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Magento Admin/Magento Admin-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		83BA62641F29AF120011DB7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7614ADE4E0A92C6409C55DC4 /* Pods-Magento Admin.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Lokesh Gupta (JW533K8V9M)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Magento\\ Admin",
+				);
+				INFOPLIST_FILE = "Magento Admin/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nethues.Magento-Admin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Magento Admin/Magento Admin-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8326A7111FBB204400438A63 /* Build configuration list for PBXNativeTarget "Magento AdminUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8326A70F1FBB204400438A63 /* Debug */,
+				8326A7101FBB204400438A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83BA624B1F29AF110011DB7C /* Build configuration list for PBXProject "Magento Admin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83BA62601F29AF120011DB7C /* Debug */,
+				83BA62611F29AF120011DB7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83BA62621F29AF120011DB7C /* Build configuration list for PBXNativeTarget "Magento Admin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83BA62631F29AF120011DB7C /* Debug */,
+				83BA62641F29AF120011DB7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83BA62481F29AF110011DB7C /* Project object */;
+}

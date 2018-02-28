@@ -1,0 +1,645 @@
+
+/* Class = "UITextField"; placeholder = "From date"; ObjectID = "0OM-8s-IY2"; */
+"0OM-8s-IY2.placeholder" = "From date";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "0Yg-UM-Obp"; */
+"0Yg-UM-Obp.title" = " ";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "0kM-aZ-Nb4"; */
+"0kM-aZ-Nb4.placeholder" = "Name";
+
+/* Class = "UITextField"; placeholder = "Enter Password"; ObjectID = "0oC-6u-UhP"; */
+"0oC-6u-UhP.placeholder" = "Enter Password";
+
+/* Class = "UILabel"; text = "27/07/2017 27/07/2017 27/07/2017 "; ObjectID = "0vN-wF-Ymy"; */
+"0vN-wF-Ymy.text" = "27/07/2017 27/07/2017 27/07/2017 ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "1EJ-SV-dFq"; */
+"1EJ-SV-dFq.text" = "Label";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "1Ji-v2-v74"; */
+"1Ji-v2-v74.title" = " ";
+
+/* Class = "UILabel"; text = "Loading..."; ObjectID = "1UV-2k-T1I"; */
+"1UV-2k-T1I.text" = "Chargement...";
+
+/* Class = "UIButton"; normalTitle = "Search"; ObjectID = "1oy-7l-IaZ"; */
+"1oy-7l-IaZ.normalTitle" = "Search";
+
+/* Class = "UILabel"; text = "Order:"; ObjectID = "2C6-Oc-VPq"; */
+"2C6-Oc-VPq.text" = "Order:";
+
+/* Class = "UILabel"; text = "Loading..."; ObjectID = "2I5-OO-2mw"; */
+"2I5-OO-2mw.text" = "Chargement...";
+
+/* Class = "UILabel"; text = "Loading..."; ObjectID = "2L6-6E-eru"; */
+"2L6-6E-eru.text" = "Chargement...";
+
+/* Class = "UILabel"; text = "CUSTOMER:"; ObjectID = "2P5-7a-MBC"; */
+"2P5-7a-MBC.text" = "CUSTOMER:";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "2gw-5x-wgq"; */
+"2gw-5x-wgq.title" = " ";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "34d-k6-6V0"; */
+"34d-k6-6V0.title" = " ";
+
+/* Class = "UILabel"; text = "Loading..."; ObjectID = "3NG-Sn-9fz"; */
+"3NG-Sn-9fz.text" = "Chargement...";
+
+/* Class = "UILabel"; text = "Loading..."; ObjectID = "3RU-a9-oj0"; */
+"3RU-a9-oj0.text" = "Chargement...";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "3gF-5t-hHg"; */
+"3gF-5t-hHg.title" = " ";
+
+/* Class = "UILabel"; text = "Loading..."; ObjectID = "3iJ-bP-yJD"; */
+"3iJ-bP-yJD.text" = "Chargement...";
+
+/* Class = "UILabel"; text = "Shipping:"; ObjectID = "3kc-xP-Up9"; */
+"3kc-xP-Up9.text" = "Shipping:";
+
+/* Class = "UILabel"; text = "LAST 4 MONTH VISITORS"; ObjectID = "43b-0G-g0Z"; */
+"43b-0G-g0Z.text" = "LAST 4 MONTH VISITORS";
+
+/* Class = "UILabel"; text = "Loading..."; ObjectID = "4Kq-zk-zk0"; */
+"4Kq-zk-zk0.text" = "Chargement...";
+
+/* Class = "UINavigationItem"; title = "Change Password"; ObjectID = "4Xg-vg-niv"; */
+"4Xg-vg-niv.title" = "Change Password";
+
+/* Class = "UILabel"; text = "Customer Name:"; ObjectID = "586-Lg-jpw"; */
+"586-Lg-jpw.text" = "Customer Name:";
+
+/* Class = "UILabel"; text = "No Records Available"; ObjectID = "5jv-YK-rfU"; */
+"5jv-YK-rfU.text" = "No Records Available";
+
+/* Class = "UILabel"; text = "Results"; ObjectID = "5sy-nJ-ouT"; */
+"5sy-nJ-ouT.text" = "Results";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "68k-bh-hPO"; */
+"68k-bh-hPO.text" = "Label";
+
+/* Class = "UILabel"; text = "Loading..."; ObjectID = "6KM-9T-XGg"; */
+"6KM-9T-XGg.text" = "Chargement...";
+
+/* Class = "UILabel"; text = "Loading..."; ObjectID = "6Pg-II-Tqj"; */
+"6Pg-II-Tqj.text" = "Chargement...";
+
+/* Class = "UITextField"; placeholder = "Enter Last Name"; ObjectID = "7eT-UP-JHN"; */
+"7eT-UP-JHN.placeholder" = "Enter Last Name";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "7mV-wF-Usy"; */
+"7mV-wF-Usy.text" = "Label";
+
+/* Class = "UILabel"; text = "LAST 4 MONTHS VISITORS"; ObjectID = "8Nu-c4-2Ow"; */
+"8Nu-c4-2Ow.text" = "LAST 4 MONTHS VISITORS";
+
+/* Class = "UIButton"; normalTitle = "SUBMIT"; ObjectID = "8jV-gR-xMl"; */
+"8jV-gR-xMl.normalTitle" = "SUBMIT";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "9Wi-eY-5ph"; */
+"9Wi-eY-5ph.text" = "Label";
+
+/* Class = "UILabel"; text = "LoadMore"; ObjectID = "9ec-ss-qgs"; */
+"9ec-ss-qgs.text" = "LoadMore";
+
+/* Class = "UILabel"; text = "LAST 4 MONTH VISITORS"; ObjectID = "APo-js-6zt"; */
+"APo-js-6zt.text" = "LAST 4 MONTH VISITORS";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Azk-XI-PSL"; */
+"Azk-XI-PSL.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "Customer"; ObjectID = "B0Q-QW-v9v"; */
+"B0Q-QW-v9v.title" = "Customer";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "B2c-Xp-Z4A"; */
+"B2c-Xp-Z4A.text" = "Password";
+
+/* Class = "UILabel"; text = "Loading..."; ObjectID = "Bvl-2l-2fM"; */
+"Bvl-2l-2fM.text" = "Chargement...";
+
+/* Class = "UIButton"; normalTitle = "Search"; ObjectID = "CfF-GT-rkB"; */
+"CfF-GT-rkB.normalTitle" = "Search";
+
+/* Class = "UILabel"; text = "£0.83"; ObjectID = "D27-m6-wlA"; */
+"D27-m6-wlA.text" = "£0.83";
+
+/* Class = "UILabel"; text = "Loading..."; ObjectID = "E9h-23-xEj"; */
+"E9h-23-xEj.text" = "Chargement...";
+
+/* Class = "UIButton"; normalTitle = "Magento Module"; ObjectID = "EGA-Bk-fGx"; */
+"EGA-Bk-fGx.normalTitle" = "Magento Module";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "EW0-ON-cm5"; */
+"EW0-ON-cm5.text" = "0";
+
+/* Class = "UIButton"; normalTitle = "View all >>"; ObjectID = "EbD-19-2c2"; */
+"EbD-19-2c2.normalTitle" = "View all >>";
+
+/* Class = "UILabel"; text = "Total Revenue"; ObjectID = "F0R-PM-uCa"; */
+"F0R-PM-uCa.text" = "Revenu total";
+
+/* Class = "UILabel"; text = "Email Address"; ObjectID = "FAx-ea-jBc"; */
+"FAx-ea-jBc.text" = "Email Address";
+
+/* Class = "UILabel"; text = "Search Term"; ObjectID = "FGW-Xa-XPd"; */
+"FGW-Xa-XPd.text" = "Search Term";
+
+/* Class = "UILabel"; text = "12"; ObjectID = "FXx-bK-jXS"; */
+"FXx-bK-jXS.text" = "12";
+
+/* Class = "UILabel"; text = "Loading..."; ObjectID = "Fl6-gB-IB5"; */
+"Fl6-gB-IB5.text" = "Chargement...";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "G4s-3E-Ntm"; */
+"G4s-3E-Ntm.text" = "Description";
+
+/* Class = "UILabel"; text = "Stock  :"; ObjectID = "GJl-Vg-xJ9"; */
+"GJl-Vg-xJ9.text" = "Stock  :";
+
+/* Class = "UILabel"; text = "Loading..."; ObjectID = "GZE-Z9-GJy"; */
+"GZE-Z9-GJy.text" = "Chargement...";
+
+/* Class = "UILabel"; text = "Load More"; ObjectID = "Gee-A7-Krb"; */
+"Gee-A7-Krb.text" = "Load More";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "Gk6-lu-0Cn"; */
+"Gk6-lu-0Cn.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "SHIPPED"; ObjectID = "GpA-0J-8OL"; */
+"GpA-0J-8OL.normalTitle" = "SHIPPED";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "H8F-CQ-ueN"; */
+"H8F-CQ-ueN.normalTitle" = "Save";
+
+/* Class = "UILabel"; text = "Bill To Name:"; ObjectID = "HC3-t2-VAR"; */
+"HC3-t2-VAR.text" = "Bill To Name:";
+
+/* Class = "UILabel"; text = "No Data"; ObjectID = "HJa-ep-pzL"; */
+"HJa-ep-pzL.text" = "No Data";
+
+/* Class = "UITabBarItem"; title = "Product"; ObjectID = "HN3-hU-hZ5"; */
+"HN3-hU-hZ5.title" = "Product";
+
+/* Class = "UILabel"; text = "Loading..."; ObjectID = "HN7-6Q-qFu"; */
+"HN7-6Q-qFu.text" = "Chargement...";
+
+/* Class = "UILabel"; text = "Category"; ObjectID = "Hg1-vd-8Mx"; */
+"Hg1-vd-8Mx.text" = "Category";
+
+/* Class = "UILabel"; text = "LAST 4 MONTHS VISITORS"; ObjectID = "Hov-qJ-q22"; */
+"Hov-qJ-q22.text" = "LAST 4 MONTHS VISITORS";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Hp1-fQ-51d"; */
+"Hp1-fQ-51d.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Loading..."; ObjectID = "Hu4-3M-s8u"; */
+"Hu4-3M-s8u.text" = "Chargement...";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "IJA-MA-wM0"; */
+"IJA-MA-wM0.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "IP7-Ru-NBF"; */
+"IP7-Ru-NBF.normalTitle" = "Save";
+
+/* Class = "UILabel"; text = "It should be atleast 5 character long "; ObjectID = "JOx-KY-COj"; */
+"JOx-KY-COj.text" = "It should be atleast 5 character long ";
+
+/* Class = "UILabel"; text = "Enter Key"; ObjectID = "JkX-8M-IOW"; */
+"JkX-8M-IOW.text" = "Enter Key";
+
+/* Class = "UIButton"; normalTitle = "View all >>"; ObjectID = "Jqw-Xj-ypY"; */
+"Jqw-Xj-ypY.normalTitle" = "View all >>";
+
+/* Class = "UILabel"; text = "Loading..."; ObjectID = "KiB-dD-A5F"; */
+"KiB-dD-A5F.text" = "Chargement...";
+
+/* Class = "UILabel"; text = "Customer"; ObjectID = "Kug-ny-KOo"; */
+"Kug-ny-KOo.text" = "Customer";
+
+/* Class = "UILabel"; text = "Load More"; ObjectID = "L2e-wZ-Ejy"; */
+"L2e-wZ-Ejy.text" = "Load More";
+
+/* Class = "UITabBarItem"; title = "Dashboard"; ObjectID = "L8k-Os-h2a"; */
+"L8k-Os-h2a.title" = "Dashboard";
+
+/* Class = "UILabel"; text = "Loading..."; ObjectID = "LI9-sL-ANU"; */
+"LI9-sL-ANU.text" = "Chargement...";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "Ley-gY-3Bq"; */
+"Ley-gY-3Bq.text" = "0";
+
+/* Class = "UILabel"; text = "PRODUCT:"; ObjectID = "LoO-dZ-hHa"; */
+"LoO-dZ-hHa.text" = "PRODUCT:";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "M0B-RI-V9q"; */
+"M0B-RI-V9q.placeholder" = "Password";
+
+/* Class = "UILabel"; text = "0.00"; ObjectID = "M4F-TJ-emx"; */
+"M4F-TJ-emx.text" = "0.00";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "M5P-fg-F80"; */
+"M5P-fg-F80.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "Loading..."; ObjectID = "MO4-f2-N2l"; */
+"MO4-f2-N2l.text" = "Chargement...";
+
+/* Class = "UILabel"; text = "Average Sale:"; ObjectID = "MOr-yb-jLe"; */
+"MOr-yb-jLe.text" = "Average Sale:";
+
+/* Class = "UILabel"; text = "Loading..."; ObjectID = "Mfi-DG-ucs"; */
+"Mfi-DG-ucs.text" = "Chargement...";
+
+/* Class = "UILabel"; text = "Total Revenue"; ObjectID = "OMX-0b-aOt"; */
+"OMX-0b-aOt.text" = "Total Revenue";
+
+/* Class = "UILabel"; text = "REFERENCE CODE:"; ObjectID = "OkZ-u1-J63"; */
+"OkZ-u1-J63.text" = "REFERENCE CODE:";
+
+/* Class = "UITabBarItem"; title = "Product"; ObjectID = "OmJ-WS-ZVa"; */
+"OmJ-WS-ZVa.title" = "Product";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "P3A-Ff-GYt"; */
+"P3A-Ff-GYt.text" = "Label";
+
+/* Class = "UILabel"; text = "Loading..."; ObjectID = "PA3-LW-g7g"; */
+"PA3-LW-g7g.text" = "Chargement...";
+
+/* Class = "UIButton"; normalTitle = "CANCELLED"; ObjectID = "PXz-OX-A8n"; */
+"PXz-OX-A8n.normalTitle" = "CANCELLED";
+
+/* Class = "UILabel"; text = "QTY:"; ObjectID = "PiV-KD-IzI"; */
+"PiV-KD-IzI.text" = "QTY:";
+
+/* Class = "UIButton"; normalTitle = "View all >>"; ObjectID = "PrD-nz-J8j"; */
+"PrD-nz-J8j.normalTitle" = "View all >>";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Q0f-Cx-ayg"; */
+"Q0f-Cx-ayg.text" = "Label";
+
+/* Class = "UILabel"; text = "Total Revenue"; ObjectID = "Qb7-E1-Khw"; */
+"Qb7-E1-Khw.text" = "Total Revenue";
+
+/* Class = "UILabel"; text = "ROW TOTAL:"; ObjectID = "QbU-vJ-AxT"; */
+"QbU-vJ-AxT.text" = "ROW TOTAL:";
+
+/* Class = "UILabel"; text = "Tax:"; ObjectID = "Ql3-m1-gsq"; */
+"Ql3-m1-gsq.text" = "Tax:";
+
+/* Class = "UILabel"; text = "DISCOUNT AMOUNT:"; ObjectID = "QmY-KI-qz3"; */
+"QmY-KI-qz3.text" = "DISCOUNT AMOUNT:";
+
+/* Class = "UILabel"; text = "AMOUNT:"; ObjectID = "Rgb-e5-Iud"; */
+"Rgb-e5-Iud.text" = "AMOUNT:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Rrp-9P-tE0"; */
+"Rrp-9P-tE0.text" = "Label";
+
+/* Class = "UILabel"; text = "Loading..."; ObjectID = "SJY-d3-6q8"; */
+"SJY-d3-6q8.text" = "Chargement...";
+
+/* Class = "UILabel"; text = "DATE:"; ObjectID = "SaA-rv-7yi"; */
+"SaA-rv-7yi.text" = "DATE:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Szr-3v-OK0"; */
+"Szr-3v-OK0.text" = "Label";
+
+/* Class = "UILabel"; text = "TAX AMOUNT:"; ObjectID = "TGB-qp-JeT"; */
+"TGB-qp-JeT.text" = "TAX AMOUNT:";
+
+/* Class = "UILabel"; text = "First Name"; ObjectID = "TKL-h1-csF"; */
+"TKL-h1-csF.text" = "First Name";
+
+/* Class = "UILabel"; text = "Loading..."; ObjectID = "TKt-Og-vIw"; */
+"TKt-Og-vIw.text" = "Chargement...";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "TwL-Hi-3K3"; */
+"TwL-Hi-3K3.title" = " ";
+
+/* Class = "UITextField"; placeholder = "Enter Email Address"; ObjectID = "Twn-Ap-bgS"; */
+"Twn-Ap-bgS.placeholder" = "Enter Email Address";
+
+/* Class = "UILabel"; text = "Purchased On:"; ObjectID = "Tyh-kb-8si"; */
+"Tyh-kb-8si.text" = "Purchased On:";
+
+/* Class = "UITextField"; placeholder = "Enter First Name"; ObjectID = "UDo-bP-O7b"; */
+"UDo-bP-O7b.placeholder" = "Enter First Name";
+
+/* Class = "UILabel"; text = "Info"; ObjectID = "Un7-Cf-COL"; */
+"Un7-Cf-COL.text" = "Info";
+
+/* Class = "UILabel"; text = "Loading..."; ObjectID = "VG2-mP-4Gf"; */
+"VG2-mP-4Gf.text" = "Chargement...";
+
+/* Class = "UINavigationItem"; title = "Order"; ObjectID = "VGB-E1-aGG"; */
+"VGB-E1-aGG.title" = "Order";
+
+/* Class = "UILabel"; text = "Subtotal:"; ObjectID = "VcE-Hl-1yT"; */
+"VcE-Hl-1yT.text" = "Subtotal:";
+
+/* Class = "UILabel"; text = "Confirmed Email:"; ObjectID = "VzO-NR-m1Q"; */
+"VzO-NR-m1Q.text" = "Confirmed Email:";
+
+/* Class = "UILabel"; text = "Total Revenue"; ObjectID = "XA2-lx-pOs"; */
+"XA2-lx-pOs.text" = "Total Revenue";
+
+/* Class = "UILabel"; text = "Select"; ObjectID = "Xdf-xO-UXq"; */
+"Xdf-xO-UXq.text" = "Select";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "Xky-tQ-cuj"; */
+"Xky-tQ-cuj.placeholder" = "Username";
+
+/* Class = "UILabel"; text = "Load More"; ObjectID = "Y1I-Kq-jnm"; */
+"Y1I-Kq-jnm.text" = "Load More";
+
+/* Class = "UILabel"; text = "Total Revenue"; ObjectID = "YIc-XV-x4p"; */
+"YIc-XV-x4p.text" = "Total Revenue";
+
+/* Class = "UITextField"; placeholder = "Customer email"; ObjectID = "Ydt-eQ-Iql"; */
+"Ydt-eQ-Iql.placeholder" = "Customer email";
+
+/* Class = "UILabel"; text = "Total Paid:"; ObjectID = "Yic-vH-w4q"; */
+"Yic-vH-w4q.text" = "Total Paid:";
+
+/* Class = "UILabel"; text = "500"; ObjectID = "Z52-Sn-KsW"; */
+"Z52-Sn-KsW.text" = "500";
+
+/* Class = "UILabel"; text = "Parent Category"; ObjectID = "ZNy-gL-GVy"; */
+"ZNy-gL-GVy.text" = "Parent Category";
+
+/* Class = "UILabel"; text = "Haven't key? Tap here"; ObjectID = "Zcd-ad-5zc"; */
+"Zcd-ad-5zc.text" = "Haven't key? Tap here";
+
+/* Class = "UITabBarItem"; title = "Order"; ObjectID = "a5y-ID-d1f"; */
+"a5y-ID-d1f.title" = "Order";
+
+/* Class = "UITextField"; placeholder = "Order Id"; ObjectID = "aBJ-jG-zmN"; */
+"aBJ-jG-zmN.placeholder" = "Order Id";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "aSg-jX-TbA"; */
+"aSg-jX-TbA.placeholder" = "Name";
+
+/* Class = "UITextField"; placeholder = "Confirm Password"; ObjectID = "aYb-7m-LRX"; */
+"aYb-7m-LRX.placeholder" = "Confirm Password";
+
+/* Class = "UILabel"; text = "Loading..."; ObjectID = "ane-e8-zOi"; */
+"ane-e8-zOi.text" = "Chargement...";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "bD2-cU-5At"; */
+"bD2-cU-5At.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "bGT-FE-cZO"; */
+"bGT-FE-cZO.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "bNd-K4-CDR"; */
+"bNd-K4-CDR.title" = "Item";
+
+/* Class = "UITextField"; placeholder = "Enter Category Name"; ObjectID = "bVH-iB-XfU"; */
+"bVH-iB-XfU.placeholder" = "Enter Category Name";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "bkf-hH-Cfb"; */
+"bkf-hH-Cfb.normalTitle" = "Submit";
+
+/* Class = "UIButton"; normalTitle = "SUBMIT"; ObjectID = "cqG-4d-7Qu"; */
+"cqG-4d-7Qu.normalTitle" = "SUBMIT";
+
+/* Class = "UITextField"; placeholder = "To date"; ObjectID = "dEd-6I-kDf"; */
+"dEd-6I-kDf.placeholder" = "To date";
+
+/* Class = "UILabel"; text = "Order Total:"; ObjectID = "dWd-Rq-eum"; */
+"dWd-Rq-eum.text" = "Order Total:";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "dey-Dj-7NN"; */
+"dey-Dj-7NN.placeholder" = "Email";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "diD-pf-YYZ"; */
+"diD-pf-YYZ.text" = "Description";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "dmr-IM-Jtz"; */
+"dmr-IM-Jtz.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "Select"; ObjectID = "e7m-ae-seL"; */
+"e7m-ae-seL.text" = "Select";
+
+/* Class = "UILabel"; text = "Loading..."; ObjectID = "eBZ-dt-qbM"; */
+"eBZ-dt-qbM.text" = "Chargement...";
+
+/* Class = "UILabel"; text = "LAST 4 MONTH VISITORS"; ObjectID = "eX9-8n-ldH"; */
+"eX9-8n-ldH.text" = "LAST 4 MONTH VISITORS";
+
+/* Class = "UILabel"; text = "No Record Available"; ObjectID = "eY2-J9-aqX"; */
+"eY2-J9-aqX.text" = "No Record Available";
+
+/* Class = "UILabel"; text = "Loading..."; ObjectID = "eke-dN-Rm4"; */
+"eke-dN-Rm4.text" = "Chargement...";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "elM-AX-ZyM"; */
+"elM-AX-ZyM.title" = " ";
+
+/* Class = "UITabBarItem"; title = "Dashboard"; ObjectID = "erj-du-ELK"; */
+"erj-du-ELK.title" = "Dashboard";
+
+/* Class = "UILabel"; text = "PRICE:"; ObjectID = "evG-Cu-52o"; */
+"evG-Cu-52o.text" = "PRICE:";
+
+/* Class = "UILabel"; text = "Last Logged In:"; ObjectID = "ez7-FV-O0q"; */
+"ez7-FV-O0q.text" = "Last Logged In:";
+
+/* Class = "UILabel"; text = "Revenue"; ObjectID = "f0s-3A-9Ca"; */
+"f0s-3A-9Ca.text" = "Revenue";
+
+/* Class = "UILabel"; text = "DEFAULT BILLING ADDRESS"; ObjectID = "feb-lR-pEp"; */
+"feb-lR-pEp.text" = "DEFAULT BILLING ADDRESS";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "fnu-4c-4Fp"; */
+"fnu-4c-4Fp.text" = "Label";
+
+/* Class = "UILabel"; text = "antony"; ObjectID = "g1u-Ss-X0Q"; */
+"g1u-Ss-X0Q.text" = "antony";
+
+/* Class = "UILabel"; text = "Loading..."; ObjectID = "gK5-0M-Vuc"; */
+"gK5-0M-Vuc.text" = "Chargement...";
+
+/* Class = "UILabel"; text = "Grand Total:"; ObjectID = "gUa-L2-9dp"; */
+"gUa-L2-9dp.text" = "Grand Total:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "h7v-oO-y96"; */
+"h7v-oO-y96.text" = "Label";
+
+/* Class = "UILabel"; text = "Loading..."; ObjectID = "hKH-LB-jeh"; */
+"hKH-LB-jeh.text" = "Chargement...";
+
+/* Class = "UILabel"; text = "Loading..."; ObjectID = "hZd-md-nVl"; */
+"hZd-md-nVl.text" = "Chargement...";
+
+/* Class = "UILabel"; text = "LAST 4 MONTHS VISITORS"; ObjectID = "hag-GO-BKh"; */
+"hag-GO-BKh.text" = "LAST 4 MONTHS VISITORS";
+
+/* Class = "UILabel"; text = "No Data"; ObjectID = "hgr-ZG-UNX"; */
+"hgr-ZG-UNX.text" = "No Data";
+
+/* Class = "UILabel"; text = "Loading..."; ObjectID = "hvP-mW-HjT"; */
+"hvP-mW-HjT.text" = "Chargement...";
+
+/* Class = "UILabel"; text = "0.00"; ObjectID = "id5-hE-FKc"; */
+"id5-hE-FKc.text" = "0.00";
+
+/* Class = "UIButton"; normalTitle = "Add File"; ObjectID = "ixI-El-3eX"; */
+"ixI-El-3eX.normalTitle" = "Add File";
+
+/* Class = "UIButton"; normalTitle = "SEARCH"; ObjectID = "jHm-2a-zFG"; */
+"jHm-2a-zFG.normalTitle" = "SEARCH";
+
+/* Class = "UINavigationItem"; title = "Product"; ObjectID = "jKl-70-HV3"; */
+"jKl-70-HV3.title" = "Product";
+
+/* Class = "UITextField"; placeholder = "Customer name"; ObjectID = "jeP-Tr-qL4"; */
+"jeP-Tr-qL4.placeholder" = "Customer name";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "kGE-tx-7yn"; */
+"kGE-tx-7yn.title" = " ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "l6e-bL-cJH"; */
+"l6e-bL-cJH.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "ALL"; ObjectID = "lU6-LH-az3"; */
+"lU6-LH-az3.normalTitle" = "ALL";
+
+/* Class = "UILabel"; text = "ORDER ID:"; ObjectID = "lVl-5z-C9D"; */
+"lVl-5z-C9D.text" = "ORDER ID:";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "mTl-Gc-NbF"; */
+"mTl-Gc-NbF.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "Last Name"; ObjectID = "msk-zT-vsR"; */
+"msk-zT-vsR.text" = "Last Name";
+
+/* Class = "UIButton"; normalTitle = "SCAN"; ObjectID = "n5l-Vf-rcr"; */
+"n5l-Vf-rcr.normalTitle" = "SCAN";
+
+/* Class = "UILabel"; text = "Loading..."; ObjectID = "nMg-2p-Kgc"; */
+"nMg-2p-Kgc.text" = "Chargement...";
+
+/* Class = "UILabel"; text = "No Records Available"; ObjectID = "nbP-jq-kix"; */
+"nbP-jq-kix.text" = "No Records Available";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ncT-rd-YvU"; */
+"ncT-rd-YvU.text" = "Label";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "oBG-U7-BZj"; */
+"oBG-U7-BZj.title" = " ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "oHO-40-2YO"; */
+"oHO-40-2YO.text" = "Label";
+
+/* Class = "UILabel"; text = "SUBTOTAL:"; ObjectID = "olY-XY-2vo"; */
+"olY-XY-2vo.text" = "SUBTOTAL:";
+
+/* Class = "UILabel"; text = "LAST 4 MONTH VISITORS"; ObjectID = "oyY-Kf-5pw"; */
+"oyY-Kf-5pw.text" = "LAST 4 MONTH VISITORS";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "pPo-xu-cwc"; */
+"pPo-xu-cwc.text" = "Name";
+
+/* Class = "UILabel"; text = "ORDER STATUS:"; ObjectID = "pe4-eU-yyA"; */
+"pe4-eU-yyA.text" = "ORDER STATUS:";
+
+/* Class = "UILabel"; text = "Accont Created On:"; ObjectID = "pxw-tb-bg4"; */
+"pxw-tb-bg4.text" = "Accont Created On:";
+
+/* Class = "UILabel"; text = "Loading..."; ObjectID = "q5I-Qd-iSm"; */
+"q5I-Qd-iSm.text" = "Chargement...";
+
+/* Class = "UIButton"; normalTitle = "Search"; ObjectID = "q6j-WX-8U2"; */
+"q6j-WX-8U2.normalTitle" = "Search";
+
+/* Class = "UILabel"; text = "ORDER ID:"; ObjectID = "qO1-CG-pfu"; */
+"qO1-CG-pfu.text" = "ORDER ID:";
+
+/* Class = "UITabBarItem"; title = "Category"; ObjectID = "qp5-dG-aae"; */
+"qp5-dG-aae.title" = "Category";
+
+/* Class = "UILabel"; text = "Loading..."; ObjectID = "r3H-nj-2v5"; */
+"r3H-nj-2v5.text" = "Chargement...";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "r4h-hg-Ptj"; */
+"r4h-hg-Ptj.text" = "Label";
+
+/* Class = "UILabel"; text = "ORDER DATE:"; ObjectID = "r9x-eH-PV1"; */
+"r9x-eH-PV1.text" = "ORDER DATE:";
+
+/* Class = "UILabel"; text = "Loading..."; ObjectID = "sN7-mC-jbR"; */
+"sN7-mC-jbR.text" = "Chargement...";
+
+/* Class = "UILabel"; text = "Email:"; ObjectID = "tBd-ki-XbV"; */
+"tBd-ki-XbV.text" = "Email:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "tKd-3b-hKh"; */
+"tKd-3b-hKh.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "tPo-dS-arW"; */
+"tPo-dS-arW.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Current Password"; ObjectID = "tco-Xn-Fxg"; */
+"tco-Xn-Fxg.placeholder" = "Current Password";
+
+/* Class = "UILabel"; text = "Lfietime Sales:"; ObjectID = "tft-DQ-o2k"; */
+"tft-DQ-o2k.text" = "Lfietime Sales:";
+
+/* Class = "UILabel"; text = "Loading..."; ObjectID = "ud8-mB-Ax1"; */
+"ud8-mB-Ax1.text" = "Chargement...";
+
+/* Class = "UILabel"; text = "Revenue"; ObjectID = "uec-X9-tDQ"; */
+"uec-X9-tDQ.text" = "Revenue";
+
+/* Class = "UILabel"; text = "Users"; ObjectID = "vC5-xx-KmL"; */
+"vC5-xx-KmL.text" = "Users";
+
+/* Class = "UILabel"; text = "No Records Available"; ObjectID = "vNf-m8-irt"; */
+"vNf-m8-irt.text" = "No Records Available";
+
+/* Class = "UILabel"; text = "Or"; ObjectID = "vRK-x1-goY"; */
+"vRK-x1-goY.text" = "Or";
+
+/* Class = "UILabel"; text = "Shipping & Handelling:"; ObjectID = "vVM-pX-WOG"; */
+"vVM-pX-WOG.text" = "Shipping & Handelling:";
+
+/* Class = "UIButton"; normalTitle = "PENDING"; ObjectID = "vth-ec-OvD"; */
+"vth-ec-OvD.normalTitle" = "PENDING";
+
+/* Class = "UITextField"; placeholder = "Enter your key here"; ObjectID = "w26-eq-N8g"; */
+"w26-eq-N8g.placeholder" = "Enter your key here";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "wCy-k3-fvP"; */
+"wCy-k3-fvP.title" = " ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "wDO-P6-wWw"; */
+"wDO-P6-wWw.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "Customer"; ObjectID = "x4y-la-bHu"; */
+"x4y-la-bHu.title" = "Customer";
+
+/* Class = "UILabel"; text = "Remember me"; ObjectID = "xLq-J0-kLy"; */
+"xLq-J0-kLy.text" = "Remember me";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "xhd-Ca-tVT"; */
+"xhd-Ca-tVT.text" = "Description";
+
+/* Class = "UITextField"; placeholder = "Enter Category Name"; ObjectID = "xpX-rk-tJH"; */
+"xpX-rk-tJH.placeholder" = "Enter Category Name";
+
+/* Class = "UITextField"; placeholder = "Id"; ObjectID = "xvK-fr-081"; */
+"xvK-fr-081.placeholder" = "Id";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "yMX-qY-gal"; */
+"yMX-qY-gal.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "ySE-vR-Abg"; */
+"ySE-vR-Abg.normalTitle" = "Save";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "yqJ-Ue-A2A"; */
+"yqJ-Ue-A2A.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UITextField"; placeholder = "New Password"; ObjectID = "z1H-d9-1rl"; */
+"z1H-d9-1rl.placeholder" = "New Password";
